@@ -1,0 +1,15 @@
+/*删除按钮样式*/
+.user-store-delete a{
+  background-color: #dedede !important;
+}
+/*价格宽度*/
+.user-store-name-width{
+	width: 180px;
+}
+.user-store-img{
+	width: 180px;
+}
+/*底部按钮*/
+.user-store-button{
+	margin-top: 20px;
+}

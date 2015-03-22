@@ -1,0 +1,13 @@
+ul.simple-faq{padding:0; margin:15px 0; list-style:none;}
+ul.simple-faq li{padding: 10px 0px 5px 0px; margin:0; list-style:none; display:block; border-bottom:1px dashed #CCCCCC; background:url(images/bullet_faq.gif) no-repeat 5px 10px;}
+ul.simple-faq li a{color:#53B9AD;}
+ul.simple-faq li a:hover{color:#999999;}
+
+ul.faq-details{padding:0; margin:15px 0; list-style:none;}
+ul.faq-details li{padding:20px 10px; margin:0; list-style:none; display:block; border-bottom:1px dashed #E4E4E4;}
+ul.faq-details li a{color:#DF6F88;}
+ul.faq-details li a:hover{color:#000000;}
+
+ul.faq-details li a.page_top{color:#999999; border:1px solid #E4E4E4; background:#F6F6F6; padding:5px;}
+ul.faq-details li a.page_top:hover{color:#E46A83;}
+

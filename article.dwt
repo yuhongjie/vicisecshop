@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>
+      {$page_title}
+    </title>
+    <meta name="description" content="Default Description" />
+    <meta name="keywords" content="Magento, Varien, E-commerce" />
+    <meta name="robots" content="INDEX,FOLLOW" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"
+    />
+    <!--[if IE 8 ]>
+      <html class="ie8" <![endif]-->
+        <!--[if IE 9 ]>
+          <html class="ie9">
+          <![endif]-->
+          <!--[if lt IE 7]>
+            <script type="text/javascript">
+              //<![CDATA[
+              var BLANK_IMG = 'images/spacer.gif';
+              //]]>
+              
+            </script>
+          <![endif]-->
+          <!-- date -->
+          <link rel="stylesheet" type="text/css" href="themes/vicis/css/home.css"/>
+          <link rel="stylesheet" type="text/css" href="themes/vicis/css/cate.css"/>
+          <link rel="stylesheet" type="text/css" href="themes/vicis/css/owl.carousel.css" />
+          <link rel="stylesheet" type="text/css" href="themes/vicis/css/owl.theme.css" />
+          <link rel="stylesheet" type="text/css" href="themes/vicis/css/owl.transitions.css"/>
+          <link rel="stylesheet" type="text/css" href="themes/vicis/css/effects.css" />
+          <link rel="stylesheet" type="text/css" href="themes/vicis/css/calendar-win2k-1.css"/>
+          <link rel="stylesheet" type="text/css" href="themes/vicis/css/cloud-zoom.css" />
+          <link rel="stylesheet" type="text/css" href="themes/vicis/css/flexslider.css" />
+          <link rel="stylesheet" type="text/css" href="themes/vicis/css/styles.css" media="all"/>
+          <link rel="stylesheet" type="text/css" href="themes/vicis/css/widgets.css" media="all"/>
+          <link rel="stylesheet" type="text/css" href="themes/vicis/css/newsletter.css" media="all"/>
+          <link rel="stylesheet" type="text/css" href="themes/vicis/css/ajaxcart.css" media="all"/>
+          <link rel="stylesheet" type="text/css" href="themes/vicis/css/bootstrap.min.css" media="all"/>
+          <link rel="stylesheet" type="text/css" href="themes/vicis/css/font-awesome.min.css" media="all" />
+          <link rel="stylesheet" type="text/css" href="themes/vicis/css/elegantfont.css" media="all"/>
+          <link rel="stylesheet" type="text/css" href="themes/vicis/css/megamenu.css" media="all"/>
+          <link rel="stylesheet" type="text/css" href="themes/vicis/css/accordion.css" media="all"/>
+          <link rel="stylesheet" type="text/css" href="themes/vicis/css/animate.css" media="all"/>
+          <link rel="stylesheet" type="text/css" href="themes/vicis/css/responsive.css" media="all"/>
+          <link rel="stylesheet" type="text/css" href="themes/vicis/css/rtl.css" media="all"/>
+          <link rel="stylesheet" type="text/css" href="themes/vicis/css/colorbox.css" media="all"/>
+          <link rel="stylesheet" type="text/css" href="themes/vicis/css/design_default.css" media="all"/>
+          <link rel="stylesheet" type="text/css" href="themes/vicis/css/layout_default.css" media="all"/>
+          <link rel="stylesheet" type="text/css" href="themes/vicis/css/print.css" media="print"/>
+          <link rel="stylesheet" type="text/css" href="themes/vicis/css/lanrenzhijia.css" media="all"/>
+        <script type="text/javascript" src="js/prototype.js">
+        </script>
+        <script type="text/javascript" src="js/ccard.js">
+        </script>
+        <script type="text/javascript" src="js/validation.js">
+        </script>
+        <script type="text/javascript" src="js/builder.js">
+        </script>
+        <script type="text/javascript" src="js/effects.js">
+        </script>
+        <script type="text/javascript" src="js/dragdrop.js">
+        </script>
+        <script type="text/javascript" src="js/controls.js">
+        </script>
+        <script type="text/javascript" src="js/slider.js">
+        </script>
+        <script type="text/javascript" src="js/js.js">
+        </script>
+        <script type="text/javascript" src="js/form.js">
+        </script>
+        <script type="text/javascript" src="js/menu.js">
+        </script>
+        <script type="text/javascript" src="js/translate.js">
+        </script>
+        <script type="text/javascript" src="js/cookies.js">
+        </script>
+        <script type="text/javascript" src="js/jquery-1.8.2.min.js">
+        </script>
+        <script type="text/javascript" src="js/wow.min.js">
+        </script>
+        <script type="text/javascript" src="js/bootstrap.min.js">
+        </script>
+        <script type="text/javascript" src="js/bootstrap-tooltip.js">
+        </script>
+        <script type="text/javascript" src="js/collapse.js">
+        </script>
+        <script type="text/javascript" src="js/jquery.lib.min.js">
+        </script>
+        <script type="text/javascript" src="js/jquery.ajaxcart.min.js">
+        </script>
+        <script type="text/javascript" src="js/jquery.cookie.js">
+        </script>
+        <script type="text/javascript" src="js/lanrenzhijia.js"></script>
+          {* 包含脚本文件 *}
+          {insert_scripts files='common.js,compare.js'}
+          {insert_scripts files='transport.js'}
+          <!--[if lt IE 8]>
+            <link rel="stylesheet" type="text/css" href="css/styles-ie.css" media="all"
+            />
+          <![endif]-->
+          <!--[if lt IE 7]>
+            <script type="text/javascript" src="js/ds-sleight.js">
+            </script>
+            <script type="text/javascript" src="js/lte-ie7.js">
+            </script>
+            <script type="text/javascript" src="js/ie6.js">
+            </script>
+          <![endif]-->
+          <!--[if lt IE 9]>
+            <script type="text/javascript" src="js/html5shiv.js">
+            </script>
+            <script type="text/javascript" src="js/respond.min.js">
+            </script>
+          <![endif]-->
+          <!--[if IE]>
+            <link rel="stylesheet" type="text/css" href="css/fonts-iex.css" media="all"
+            />
+          <![endif]-->
+          <script type="text/javascript">
+            //<![CDATA[
+            // Mage.Cookies.path = '/';
+            // Mage.Cookies.domain = '.mt-bebakery.magentheme.com';
+            //]]>
+            
+          </script>
+          <script type="text/javascript">
+            //<![CDATA[
+            optionalZipCountries = ["HK", "IE", "MO", "PA"];
+            //]]>
+            
+          </script>
+          <script type="text/javascript">
+            var MT = MT || {};
+            MT.FORM_KEY = 'EdfsRPHjzB2i1pzn';
+
+            function setLocationWidget(url) {
+              if (url.indexOf('form_key/') !== -1) {
+                var part = url.split('form_key/')[1],
+                formKey = part.split('/')[0];
+
+                if (!formKey) return;
+
+                var newUrl = url.replace(formKey, MT.FORM_KEY || '');
+
+                if (setLocation) setLocation(newUrl);
+                else window.location.href = newUrl;
+              }
+            }
+          </script>
+          <script type="text/javascript">
+            //<![CDATA[
+            var Translator = new Translate([]);
+            //]]>
+            
+          </script>
+  </head>
+  
+  <body class="   opc-index-index">
+    <section class="mt-container">
+        <!-- navigation BOF -->
+        <!-- #BeginLibraryItem "/library/page_small_header.lbi" --><!-- #EndLibraryItem -->
+      <section class="mt-wrapper">
+         <!-- #BeginLibraryItem "/library/page_header.lbi" --><!-- #EndLibraryItem -->
+        <div class="clearfix">
+        </div>
+        <section class="main-container col1-layout">
+          <div class="show-grid-slide">
+            <div class="mt-revolution-slider">
+              <div class="mt-preface">
+                <a class="bottom-content" href="javascript:void(0);">
+                  <i class="fa fa-angle-down">
+                  </i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="">
+            <div class="container">
+              <div class="main_content">
+                <div class="row">
+                  <div class="col-lg-12">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="main-top">
+            <div class="container">
+              <div class="main">
+                <div class="row">
+                  <div class="clearfix">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container-main">
+            <div class="main-content container">
+                              <div style="padding: 5px">
+                              <!-- {if $article.content } -->
+                              <div>{$article.content}</div>
+                              <!-- {/if} -->
+                              {if $article.open_type eq 2 or $article.open_type eq 1}<br />
+                              <div><a href="{$article.file_url}" target="_blank">{$lang.relative_file}</a></div>
+                              {/if} </div>
+            </div>
+          </div>
+        </section>
+          <!-- #BeginLibraryItem "/library/page_footer.lbi" --><!-- #EndLibraryItem -->
+      </section>
+    </section>
+  </body>
+  </html>

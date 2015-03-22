@@ -1,0 +1,387 @@
+
+            <footer class="footer-container">
+                <div class="footer-top">
+                    <div class="container">
+                        <div class="footer">
+                            <div class="show-grid row">
+                                <div class="" id="widget-e7922fc64767df69c432eaf0d4b1f5e4">
+                                    <div class="">
+                                       <h4 class="text-center home-footer-title">Rabbit Hole</h4>
+                                        <div class="col-lg-12  col-md-12  col-sm-12  col-xs-12  ">
+                                            <div class="list-social-icon">
+                                                <a href="#">
+                                                    <i class="fa fa-weibo"></i>
+                                                </a>
+                                                <a href="#">
+                                                    <i class="fa fa-weixin"></i>
+                                                </a>
+                                                <a href="#">
+                                                   <i class="fa fa-envelope"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <script type="text/javascript" src="js/frontend.js">
+                                    </script>
+                                    <script type="text/javascript">
+                                        new MT.Widget('widget-e7922fc64767df69c432eaf0d4b1f5e4', {
+                                            animation: {
+                                                "enable": false,
+                                                "animationName": null,
+                                                "animationDelay": 300,
+                                                "itemSelector": null,
+                                                "engineSrc": "http:\/\/localhost:8088\/sweet\/js\/wow.js"
+                                            },
+                                            parallax: {
+                                                "enable": false,
+                                                "type": null,
+                                                "overlay": null,
+                                                "video": {
+                                                    "src": null,
+                                                    "volume": false
+                                                },
+                                                "image": {
+                                                    "src": null,
+                                                    "fit": null,
+                                                    "repeat": null
+                                                },
+                                                "file": {
+                                                    "poster": null,
+                                                    "mp4": null,
+                                                    "webm": null,
+                                                    "volume": false
+                                                }
+                                            },
+                                            carousel: {
+                                                "enable": false,
+                                                "pagination": false,
+                                                "autoPlay": false,
+                                                "items": 4,
+                                                "singleItem": false,
+                                                "lazyLoad": true,
+                                                "lazyEffect": false,
+                                                "addClassActive": true,
+                                                "navigation": false,
+                                                "navigationText": [null, null],
+                                                "transitionStyle": false,
+                                                "engineSrc": "http:\/\/localhost:8088\/sweet\/js\/owl.carousel.js"
+                                            },
+                                            carouselConfig: null,
+                                            kenburns: {
+                                                "enable": false,
+                                                "images": [],
+                                                "overlay": null,
+                                                "engineSrc": "http:\/\/localhost:8088\/sweet\/js\/kenburns.js"
+                                            }
+                                        });
+                                    </script>
+                                </div>
+                                <div class="" id="widget-a2332aacf77e91334b297efdec5a07e1">
+                                    <div class="">
+                                        <div class="col-lg-12  col-md-12  col-sm-12  col-xs-12  ">
+                                            <div class="footer-menu-link">
+                                                <ul>
+                                                    <li class="first">
+                                                        <a href="article.php?id=5">
+                                                           关于薇茜
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="article.php?id=9">
+                                                           配送服务
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="article.php?id=7">
+                                                           FAQ
+                                                        </a>
+                                                    </li>
+                                                    <li  class="footer-last" >
+                                                        <a href="article.php?id=10">
+                                                            联系我们
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-copyright">
+                    <div class="container">
+                        <div class="footer">
+                            <div class="row">
+                                <div class="col-xs-12 clearfix">
+                                    <address>
+                                        Copyright © 2015
+                                        <a class="active" href="#"
+                                        title="Magento Themes">
+                                            薇茜甜点
+                                        </a>
+                                        
+                                    </address>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="back-top" class="hidden-phone">
+                    <a href="#top">
+                        <div class="sticker-wrapper">
+                            <div class="sticker" title="Back to Top">
+                                <i class="fa fa-angle-up">
+                                </i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </footer>
+
+  <link rel="stylesheet" type="text/css" href="themes/vicis/css/lanrenzhijia.css" media="all"/>
+  <script type="text/javascript" src="themes/vicis/js/lanrenzhijia.js">
+           </script>
+    <!-- 浮动购物车代码begin -->
+  <div class="fixedBox">
+    <ul class="fixedBoxList">
+      <li style="display: block;" id="cartboxs" class="fixeBoxLi cart_bd">
+        <P class="good_cart">
+{insert_scripts files='transport.js'}
+ {insert name='cart_info'}</P>
+        <span class="fixeBoxSpan"></span> <strong><i class="fa fa-shopping-cart"></i></strong>
+        <div class="cartBox">
+          <div class="bjfff"></div>
+          <div class="message">
+            <p>购物车内
+{insert_scripts files='transport.js'}
+ {insert name='cart_info'}件商品</p>
+            <a href="flow.php?step=cart">去结算</a>
+        </div>
+        </div>
+      </li>
+      <li class="fixeBoxLi Service"> <span class="fixeBoxSpan"></span> <strong><i class="fa fa-qq"></i></strong>
+        <div class="ServiceBox">
+          <div class="bjfff"></div>
+          <dl >
+            <dt><img src="images/Service1.jpg"></dt>
+            <dd> <span>在线QQ客服</span>
+              <P class="p1">9:00-22:00</P>
+              <P class="p2"><a title="点击这里给我发消息"href="http://wpa.qq.com/msgrd?v=3&amp;uin=100000&amp;site=qq&amp;menu=yes"target="_blank">点击交谈</a></P>
+            </dd>
+          </dl>
+        </div>
+      </li>
+    </ul>
+  </div>
+  
+    <!-- 代码end -->
+
+                <script type="text/javascript">
+                    function setGridItem($) {
+                        var winWidth = $(window).width();
+                        var col = 3;
+                        if (winWidth > 768) {
+                            newcol = col;
+                        }
+                        if (winWidth < 768 && winWidth >= 640) {
+                            newcol = 3;
+                        }
+                        if (winWidth >= 480 && winWidth < 640) {
+                            newcol = 2;
+                        }
+                        if (winWidth < 480) {
+                            newcol = 2;
+                        }
+                        $i = 0;
+                        $('.show-grid > .item').each(function() {
+                            $i++;
+                            $(this).removeClass('first');
+                            $(this).removeClass('last');
+                            if (($i - 1) % newcol == 0) {
+                                $(this).addClass('first');
+                            } else if ($i % newcol == 0) {
+                                $(this).addClass('last');
+                            }
+                        });
+                    }
+                    $mt(function($) {
+                        var winWidth = $(window).width();
+                        var winHeight = $(window).height();
+                        var windowResize_t;
+                        $(window).resize(function() {
+                            var winNewWidth = $(window).width();
+                            var winNewHeight = $(window).height();
+                            if (winWidth != winNewWidth || winHeight != winNewHeight) {
+                                clearTimeout(windowResize_t);
+                                windowResize_t = setTimeout(function() {
+                                    $(document).trigger("themeResize");
+                                    setGridItem($);
+                                },
+                                200);
+                            }
+                            winWidth = winNewWidth;
+                            winHeight = winNewHeight;
+                        });
+                        $('.mt-maincompare').hover(function() {
+                            $(this).addClass('compare-active').find('.mtajaxcompare').stop().delay(200).slideDown();
+                        },
+                        function() {
+                            $(this).removeClass('compare-active').find('.mtajaxcompare').stop().delay(200).slideUp();
+                        });
+                        $('.setting-big').hover(function() {
+                            $(this).addClass('setting-bi-active').find('.mtsettingbig').stop().delay(200).slideDown();
+                        },
+                        function() {
+                            $(this).removeClass('setting-bi-active').find('.mtsettingbig').stop().delay(200).slideUp();
+                        });
+                        $("#select-language").selectbox();
+                        $("#select-currency").selectbox();
+                        //lazyload
+                        $("img.lazy").lazy({
+                            effect: "fadeIn",
+                            effectTime: 800,
+                            threshold: 50,
+                            afterLoad: function(element) {}
+                        });
+                        var text = $(".form-language a.sbSelector").text().toLowerCase();
+                        $(".form-language a.sbSelector").css({
+                            "background-image": "url('#" + text + ".png')",
+                            "background-repeat": "no-repeat",
+                            "background-position": "left center"
+                        });
+
+                        //Back to top
+                        $(window).scroll(function() {
+                            if ($(this).scrollTop() > 100) {
+                                $('#back-top').fadeIn();
+                            } else {
+                                $('#back-top').fadeOut();
+                            }
+                        });
+                        $('#back-top a').click(function() {
+                            $('body,html').animate({
+                                scrollTop: 0
+                            },
+                            800);
+                            return false;
+                        });
+
+                        $('.bottom-content').click(function() {
+                            $('html, body').animate({
+                                scrollTop: $('.show-grid-slide').height()
+                            },
+                            800);
+                            return false;
+                        });
+
+                        //Cart header
+                        $('.mt-maincart').hover(function() {
+                            $(this).addClass('cart-active').find('.ajaxcart').stop().delay(200).slideDown();
+                        },
+                        function() {
+                            $(this).removeClass('cart-active').find('.ajaxcart').stop().delay(200).slideUp();
+                        });
+                        //Quickview
+                        $('.product-quickview').live('click',
+                        function() {
+                            $.colorbox({
+                                iframe: true,
+                                href: this.href,
+                                opacity: 0.5,
+                                speed: 300,
+                                current: '{current} / {total}',
+                                close: "close",
+                                innerWidth: '765px',
+                                innerHeight: '650px',
+                                onOpen: function() {
+                                    $('#cboxLoadingGraphic').addClass('box-loading');
+                                },
+                                onComplete: function() {
+                                    setTimeout(function() {
+                                        $('#cboxLoadingGraphic').removeClass('box-loading');
+                                    },
+                                    1300);
+                                }
+                            });
+                        });
+
+                        $('.show-quickview').live('click',
+                        function(e) {
+                            if ($('.btn-cart-mobile').length == 0) {
+                                $('[data-id=quickview-' + $(this).attr('data-id') + ']').trigger('click');
+                            } else {
+                                return window.location.href = $(this).attr('data-submit');
+                            }
+                        });
+                    });
+                    $mt(window).load(function() {
+                        setGridItem($mt);
+                        $mt.browserSelector();
+                        if ($mt("html").hasClass("chrome")) {
+                            $mt.smoothScroll();
+                        }
+                        if ($mt("html").hasClass("safari")) {
+                            $mt.smoothScroll();
+                        }
+                        $mt(".mt-tooltip").tooltip();
+
+                        var selectToggle = '<i class="fa fa-angle-down"></i>',
+                        flextPrev = '<i class="fa fa-angle-left"></i>',
+                        flextNext = '<i class="fa fa-angle-right"></i>';
+
+                        $mt(".flex-direction-nav a, .more-views .more-views-prev, .more-views .more-views-next").empty();
+                        $mt(".more-views").addClass("nav-wrapper-view");
+                        //$mt(".sbToggle").append(selectToggle);
+                        $mt(".flex-direction-nav a.flex-prev").append(flextPrev);
+                        $mt(".flex-direction-nav a.flex-next").append(flextNext);
+
+                        wow = new WOW({
+                            boxClass: 'wow',
+                            animateClass: 'animated',
+                            offset: 100
+                        });
+                        wow.init();
+                    });
+                    $mt(".accordion-footer").addClass("accordion-show");
+                    $mt(".accordion-footer").click(function() {
+                        if ($mt(this).parent().next().is(":visible")) {
+                            $mt(this).addClass("accordion-show");
+                        } else {
+                            $mt(this).removeClass("accordion-show");
+                        }
+                        $mt(this).parent().next().toggle(400);
+                    });
+                    //Background category header//
+                    $mt(document).ready(function() {
+                        var iconSearch = $mt(".quick-access").find(".mt-icon-ajax").find(".fa-search"),
+                        formSearch = $mt(".quick-access").find(".form-search"),
+                        headerOverlay = $mt(".header-content").find(".header-act");
+                        $mt(iconSearch).click(function() {
+                            if ($mt(formSearch).is(":visible")) {
+                                $mt(formSearch).fadeOut(100);
+                                $mt(this).removeClass("fa-times").addClass("fa-search");
+                                $mt(headerOverlay).removeClass("header-overlay");
+                                
+
+                            } else {
+                                $mt(formSearch).fadeIn(100);
+                                $mt(this).removeClass("fa-search").addClass("fa-times");
+                                $mt(headerOverlay).addClass("header-overlay");
+                               
+                            }
+                        });
+                    });
+
+                    function iconFontAwesome() {
+                        //add font icon awesome
+                        $mt(".top-link .links li a").append("<i></i>");
+                        $mt(".top-link .links li.first i").addClass("fa fa-user");
+                        $mt(".top-link .links li a.top-link-cart i").addClass("fa fa-shopping-cart");
+                        $mt(".top-link .links li a.top-link-wishlist i").addClass("fa fa-heart-o");
+                        $mt(".top-link .links li a.top-link-checkout i").addClass("fa fa-check");
+                        $mt(".top-link .links li.last i").addClass("fa fa-unlock-alt");
+                    }
+                </script>

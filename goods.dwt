@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="Keywords" content="{$keywords}" />
+    <meta name="Description" content="{$description}" />
+    <!-- TemplateBeginEditable name="doctitle" -->
+    <title>{$page_title}</title>
+    <!-- TemplateEndEditable -->
+    <!-- TemplateBeginEditable name="head" -->
+    <!-- TemplateEndEditable -->
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="icon" href="animated_favicon.gif" type="image/gif" />
+    <link rel="alternate" type="application/rss+xml" title="RSS|{$page_title}" href="{$feed_url}" />
+  <!--[if IE 8 ]>
+      <html class="ie8" <![endif]--> 
+  <!--[if IE 9 ]>
+          <html class="ie9">
+          <![endif]--> 
+  <!--[if lt IE 7]>
+            <script type="text/javascript">
+              //<![CDATA[
+              var BLANK_URL = '';
+              var BLANK_IMG = 'js/spacer.gif';
+              //]]>
+              
+            </script>
+          <![endif]--> 
+
+  <link rel="stylesheet" type="text/css" href="themes/vicis/css/home.css"/>
+  <link rel="stylesheet" type="text/css" href="themes/vicis/css/owl.carousel.css" />
+  <link rel="stylesheet" type="text/css" href="themes/vicis/css/owl.theme.css" />
+  <link rel="stylesheet" type="text/css" href="themes/vicis/css/owl.transitions.css"/>
+  <link rel="stylesheet" type="text/css" href="themes/vicis/css/effects.css" />
+  <link rel="stylesheet" type="text/css" href="themes/vicis/css/calendar-win2k-1.css"/>
+  <link rel="stylesheet" type="text/css" href="themes/vicis/css/cloud-zoom.css" />
+  <link rel="stylesheet" type="text/css" href="themes/vicis/css/flexslider.css" />
+  <link rel="stylesheet" type="text/css" href="themes/vicis/css/styles.css" media="all"/>
+  <link rel="stylesheet" type="text/css" href="themes/vicis/css/widgets.css" media="all"/>
+  <link rel="stylesheet" type="text/css" href="themes/vicis/css/newsletter.css" media="all"/>
+  <link rel="stylesheet" type="text/css" href="themes/vicis/css/ajaxcart.css" media="all"/>
+  <link rel="stylesheet" type="text/css" href="themes/vicis/css/bootstrap.min.css" media="all"/>
+  <link rel="stylesheet" type="text/css" href="themes/vicis/css/font-awesome.min.css" media="all" />
+  <link rel="stylesheet" type="text/css" href="themes/vicis/css/elegantfont.css" media="all"/>
+  <link rel="stylesheet" type="text/css" href="themes/vicis/css/megamenu.css" media="all"/>
+  <link rel="stylesheet" type="text/css" href="themes/vicis/css/accordion.css" media="all"/>
+  <link rel="stylesheet" type="text/css" href="themes/vicis/css/animate.css" media="all"/>
+  <link rel="stylesheet" type="text/css" href="themes/vicis/css/responsive.css" media="all"/>
+  <link rel="stylesheet" type="text/css" href="themes/vicis/css/rtl.css" media="all"/>
+  <link rel="stylesheet" type="text/css" href="themes/vicis/css/colorbox.css" media="all"/>
+  <link rel="stylesheet" type="text/css" href="themes/vicis/css/design_default.css" media="all"/>
+  <link rel="stylesheet" type="text/css" href="themes/vicis/css/layout_default.css" media="all"/>
+  <link rel="stylesheet" type="text/css" href="themes/vicis/css/print.css" media="print"/>
+  <link rel="stylesheet" type="text/css" href="themes/vicis/css/product_detail.css" media="all"/>
+  <script type="text/javascript" src="js/prototype.js">
+          </script> 
+  <script type="text/javascript" src="js/ccard.js">
+          </script> 
+  <script type="text/javascript" src="js/validation.js">
+          </script> 
+  <script type="text/javascript" src="js/builder.js">
+          </script> 
+  <script type="text/javascript" src="js/effects.js">
+          </script> 
+  <script type="text/javascript" src="js/dragdrop.js">
+          </script> 
+  <script type="text/javascript" src="js/controls.js">
+          </script> 
+  <script type="text/javascript" src="js/slider.js">
+          </script> 
+  <script type="text/javascript" src="js/js.js">
+          </script> 
+  <script type="text/javascript" src="js/form.js">
+          </script> 
+  <script type="text/javascript" src="js/menu.js">
+          </script> 
+  <script type="text/javascript" src="js/translate.js">
+          </script> 
+  <script type="text/javascript" src="js/cookies.js">
+          </script> 
+  <script type="text/javascript" src="js/jquery-1.8.2.min.js">
+          </script> 
+  <script type="text/javascript" src="js/wow.min.js">
+          </script> 
+  <script type="text/javascript" src="js/bootstrap.min.js">
+          </script> 
+  <script type="text/javascript" src="js/bootstrap-tooltip.js">
+          </script> 
+  <script type="text/javascript" src="js/collapse.js">
+          </script> 
+  <script type="text/javascript" src="js/jquery.lib.min.js">
+          </script> 
+  <script type="text/javascript" src="js/jquery.ajaxcart.min.js">
+          </script> 
+  <script type="text/javascript" src="js/jquery.cookie.js">
+          </script> 
+  <script type="text/javascript" src="js/product.js">
+          </script> 
+  <script type="text/javascript" src="js/configurable.js">
+          </script> 
+  <script type="text/javascript" src="js/calendar.js">
+          </script> 
+  <script type="text/javascript" src="js/calendar-setup.js">
+          </script> 
+  <script type="text/javascript" src="js/cloud-zoom.1.0.3.js">
+          </script> 
+  <script type="text/javascript" src="js/jquery.flexslider.js">
+          </script> 
+  <script type="text/javascript" src="js/lanrenzhijia.js">
+           </script>
+      {* 包含脚本文件 *}
+{insert_scripts files='transport.js,common.js,compare.js'}
+  <!--[if lt IE 8]>
+            <link rel="stylesheet" type="text/css" href="css/styles-ie.css" media="all"
+            />
+          <![endif]--> 
+  <!--[if lt IE 7]>
+            <script type="text/javascript" src="js/lib/ds-sleight.js">
+            </script>
+            <script type="text/javascript" src="js/plugins/elegantfont/lte-ie7.js">
+            </script>
+            <script type="text/javascript" src="skin/frontend/base/default/js/ie6.js">
+            </script>
+          <![endif]--> 
+  <!--[if lt IE 9]>
+            <script type="text/javascript" src="js/plugins/bootstrap/html5shiv.js">
+            </script>
+            <script type="text/javascript" src="js/plugins/bootstrap/respond.min.js">
+            </script>
+          <![endif]--> 
+  <!--[if IE]>
+            <link rel="stylesheet" type="text/css" href="css/fonts-iex.css" media="all"
+            />
+          <![endif]--> 
+  <script type="text/javascript">
+            var magenThemes = {};
+            magenThemes.responsive = true;
+            magenThemes.maxBreak = 1170;
+            magenThemes.url = '';
+          </script> 
+  <script type="text/javascript">
+            //<![CDATA[
+            Mage.Cookies.path = '/';
+            Mage.Cookies.domain = '.mt-bebakery.magentheme.com';
+            //]]>
+            
+          </script> 
+  <script type="text/javascript">
+            //<![CDATA[
+            optionalZipCountries = ["HK", "IE", "MO", "PA"];
+            //]]>
+            
+          </script> 
+  <script type="text/javascript">
+            var MT = MT || {};
+            MT.FORM_KEY = 'yqQFmuhA6UzicBiB';
+
+            function setLocationWidget(url) {
+              if (url.indexOf('form_key/') !== -1) {
+                var part = url.split('form_key/')[1],
+                formKey = part.split('/')[0];
+
+                if (!formKey) return;
+
+                var newUrl = url.replace(formKey, MT.FORM_KEY || '');
+
+                if (setLocation) setLocation(newUrl);
+                else window.location.href = newUrl;
+              }
+            }
+          </script> 
+  <script type="text/javascript">
+            //<![CDATA[
+            var Translator = new Translate([]);
+            //]]>
+            
+          </script> 
+  <!-- <link href='//fonts.googleapis.com/css?family=Montserrat:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic&subset=latin'
+          rel='stylesheet' type='text/css' />
+          --> 
+ </head> 
+ <body class="   catalog-product-view catalog-product-view product-sweet-deliciousness"> 
+  <section class="mt-container"> 
+    <!-- navigation BOF -->
+    <!-- #BeginLibraryItem "/library/page_small_header.lbi" --><!-- #EndLibraryItem -->
+   <section class="mt-wrapper"> 
+        <!-- #BeginLibraryItem "/library/page_header.lbi" --><!-- #EndLibraryItem -->
+    <noscript> 
+     <div class="global-site-notice noscript"> 
+      <div class="notice-inner"> 
+       <p> <strong> JavaScript seems to be disabled in your browser. </strong> <br /> You must have JavaScript enabled in your browser to utilize the functionality of this website. </p> 
+      </div> 
+     </div> 
+    </noscript> 
+    <div class="clearfix"> 
+    </div> 
+    <section class="main-container col1-layout"> 
+     <div class="show-grid-slide"> 
+      <div class="mt-revolution-slider"> 
+       <div class="mt-preface"> 
+        <a class="bottom-content" href="javascript:void(0);"> <i class="fa fa-angle-down"> </i> </a> 
+       </div> 
+      </div> 
+     </div> 
+     <!--<div class="mt-revolution-slider">
+          <div class="mt-mvertical"></div>
+          </div>--> 
+     <div class="main-top"> 
+      <div class="container"> 
+       <div class="main"> 
+        <div class="row"> 
+         <div class="clearfix"> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="container-main"> 
+      <div class="main-content container"> 
+       <div class="row"> 
+        <div class="col-main"> 
+         <script type="text/javascript">
+                    var optionsPrice = new Product.OptionsPrice([]);
+                  </script> 
+         <div id="messages_product_view"> 
+         </div> 
+         <div class="product-view "> 
+          <div class="product-essential show-grid"> 
+            <div class="no-display col-lg-12"> 
+             <input type="hidden" name="product" value="11" /> 
+             <input type="hidden" name="related_product" id="related-products-field" value="" /> 
+            </div> 
+            <div class="product-img-box col-lg-5 col-md-5 col-sm-5 col-xs-12"> 
+             <!-- --> 
+             <p class="product-image"> <a class="cloud-zoom" id="zoomID" rel="zoomWidth:350,zoomHeight:350,position:'inside',adjustX:0,adjustY:0" href="{$goods.goods_img}"> <img class="img-responsive" src="{$goods.goods_img}" alt="{$goods.goods_name|escape:html}"/> </a> </p> 
+             <div class="more-views" id="moreViews"> 
+              <!--<h2></h2>--> 
+              <ul class="slides"> 
+              <!-- {foreach from=$pictures item=picture}-->
+                <li> <a href="{if $picture.thumb_url}{$picture.thumb_url}{else}{$picture.img_url}{/if}" title="" class="cloud-zoom-gallery" rel="useZoom:'zoomID',smallImage:'{if $picture.thumb_url}{$picture.thumb_url}{else}{$picture.img_url}{/if}'"> <img class="img-responsive" src="{if $picture.thumb_url}{$picture.thumb_url}{else}{$picture.img_url}{/if}" alt="{$goods.goods_name}" /> </a> </li> 
+              <!--{/foreach}-->
+              </ul> 
+             </div> 
+             <script type="text/javascript">
+                            $mt(document).ready(function() {
+                              bindMoreViewsFlexSlider();
+                            });
+                            function bindMoreViewsFlexSlider() {
+                              var count = 3;
+                              $mt('#moreViews').flexslider({
+                                namespace: 'more-views-',
+                                slideshow: false,
+                                animation: "slide",
+                                itemWidth: getMoreViewsItemWidth('moreViews', count, 5),
+                                itemMargin: 5,
+                                minItems: 1,
+                                maxItems: count,
+                                selector: ".slides > li",
+                                controlNav: false
+                              });
+                            }
+                            function getMoreViewsItemWidth(id, column, margin) {
+                              var width = $mt('#' + id).width();
+                              return (width / column).toFixed(2) - margin * 2;
+                            }
+                          </script> 
+            </div> 
+          <form action="javascript:addToCart({$goods.goods_id})" method="post" name="ECS_FORMBUY" id="ECS_FORMBUY" >
+              <div class="product-shop col-lg-7 col-md-7 col-sm-7 col-xs-12"> 
+               <div class="product-shop-content"> 
+                <div class="product-name"> 
+                 <h1> {$goods.goods_style_name} </h1> 
+                </div> 
+                <div class="wapper-view"> 
+                 <div class="price-box pro-detail-price"> 
+                  <span class="regular-price" id="product-price-11"> <span class="price"> {$goods.shop_price_formated} </span> </span> 
+                 </div> 
+                </div> 
+                <div class="add-to-box pro-detail-kw"> 
+                 <div class="add-to-cart"> 
+                  <div class="quantity-input pull-left"> 
+                      <!-- {* 开始循环所有可选属性 *} -->
+                      <!-- {foreach from=$specification item=spec key=spec_key} -->
+                                   <p> 
+                                    <lable>
+                                      {$spec.name}
+                                    </lable> </p> 
+                                    <!-- {if $spec.attr_type eq 1} -->
+                                      <!-- {if $cfg.goodsattr_style eq 1} -->
+                                        <!-- {foreach from=$spec.values item=value key=key} -->
+                                        <label for="spec_value_{$value.id}">
+                                        <input type="radio" name="spec_{$spec_key}" value="{$value.id}" id="spec_value_{$value.id}" {if $key eq 0}checked{/if} onclick="changePrice()" />
+                                        {$value.label} [{if $value.price gt 0}{$lang.plus}{elseif $value.price lt 0}{$lang.minus}{/if} {$value.format_price|abs}] </label><br />
+                                        <!-- {/foreach} -->
+                                        <input type="hidden" name="spec_list" value="{$key}" />
+                                        <!-- {else} -->
+                                        <select name="spec_{$spec_key}" onchange="changePrice()">
+                                          <!-- {foreach from=$spec.values item=value key=key} -->
+                                          <option label="{$value.label}" value="{$value.id}">{$value.label} {if $value.price gt 0}{$lang.plus}{elseif $value.price lt 0}{$lang.minus}{/if}{if $value.price neq 0}{$value.format_price}{/if}</option>
+                                          <!-- {/foreach} -->
+                                        </select>
+                                        <input type="hidden" name="spec_list" value="{$key}" />
+                                      <!-- {/if} -->
+                                    <!-- {else} -->
+                                      <!-- {foreach from=$spec.values item=value key=key} -->
+                                      <label for="spec_value_{$value.id}">
+                                      <input type="checkbox" name="spec_{$spec_key}" value="{$value.id}" id="spec_value_{$value.id}" onclick="changePrice()" />
+                                      {$value.label} [{if $value.price gt 0}{$lang.plus}{elseif $value.price lt 0}{$lang.minus}{/if} {$value.format_price|abs}] </label><br />
+                                      <!-- {/foreach} -->
+                                      <input type="hidden" name="spec_list" value="{$key}" />
+                                    <!-- {/if} -->
+                      <!-- {/foreach} -->
+                      <!-- {* 结束循环可选属性 *} -->
+                   <p> 
+                    <lable>
+                      数量 
+                    </lable> </p> 
+                   <select name="buy-num" id="buy-num"> <option value="1"> 1个 </option> <option value="2"> 2个 </option> <option value="3"> 3个 </option> <option value="4"> 4个 </option> <option value="4"> 5个 </option> <option value="4"> 10个 </option> </select> 
+                   <input name="number" type="hidden" id="number" value="1" />
+                  </div> 
+                 </div> 
+                 <div class="addto-bottom"> 
+                  <a href="javascript:addToCart({$goods.goods_id})">
+                  <button type="button" class="button btn-cart mt-tooltip" style="height:60px;   border-radius: 30px;" data-original-title="加入购物车"> <span style="font-size: 30px;font-weight:normal;padding:0 26px;"> 加入购物车 </span> </span> </button> </a>
+                  <div class="product-add-to-links"> 
+                   <ul class="add-to-links"> 
+                    <li> <a href="javascript:collect({$goods.goods_id})" class="link-wishlist mt-tooltip" data-original-title="收藏"> <i class="fa fa-heart" style="font-size:20px;"> </i> </a> </li> 
+                   </ul> 
+                  </div> 
+                 </div> 
+                </div> 
+               </div> 
+              </div> 
+            </form> 
+           <script type="text/javascript">
+                        $(function(){
+                                        $("#buy-num").change(function(){
+                                            var checkValue=$("#buy-num").val();
+                                            $("#number").val(checkValue);
+                                        });
+                                        
+                                    });
+                        //<![CDATA[
+                        var productAddToCartForm = new VarienForm('product_addtocart_form');
+                        productAddToCartForm.submit = function(button, url) {
+                          if (this.validator.validate()) {
+                            var form = this.form;
+                            var oldUrl = form.action;
+
+                            if (url) {
+                              form.action = url;
+                            }
+                            var e = null;
+                            try {
+                              this.form.submit();
+                            } catch(e) {}
+                            this.form.action = oldUrl;
+                            if (e) {
+                              throw e;
+                            }
+
+                            if (button && button != 'undefined') {
+                              button.disabled = true;
+                            }
+                          }
+                        }.bind(productAddToCartForm);
+
+                        productAddToCartForm.submitLight = function(button, url) {
+                          if (this.validator) {
+                            var nv = Validation.methods;
+                            delete Validation.methods['required-entry'];
+                            delete Validation.methods['validate-one-required'];
+                            delete Validation.methods['validate-one-required-by-name'];
+                            // Remove custom datetime validators
+                            for (var methodName in Validation.methods) {
+                              if (methodName.match(/^validate-datetime-.*/i)) {
+                                delete Validation.methods[methodName];
+                              }
+                            }
+
+                            if (this.validator.validate()) {
+                              if (url) {
+                                this.form.action = url;
+                              }
+                              this.form.submit();
+                            }
+                            Object.extend(Validation.methods, nv);
+                          }
+                        }.bind(productAddToCartForm);
+                        //]]>
+                        
+                      </script> 
+          </div> 
+          <div class="product-collateral"> 
+           <ul class="product-tabs clearfix"> 
+            <li class="detail-tab-title active"> <a href="javascript:void(0)"> 详细信息 </a> </li> 
+           </ul> 
+           <div class="title-divider">
+             &nbsp; 
+           </div> 
+           <div class="product-tabs-content" id="product_tabs_description_contents"> 
+            <div class="product-tabs-content-inner clearfix"> 
+             <h2> 详细信息 </h2> 
+             <div class="product-detail">
+               {$goods.goods_desc}
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="product-news product-relative" id="widget-836c4fb1dfc48a2218ca5a58609bc0e0"> 
+           <h2> 相关产品 </h2> 
+           <ul class="products-grid "> 
+                        <!-- 开始循环属性关联的商品 {foreach from=$attribute_linked item=linked}-->
+                        <!-- {if $linked.goods} -->
+                          <!-- {foreach from=$linked.goods item=linked_goods_data} -->
+                        <li class="item">
+                          <div class="item-upsell">
+                            <a class="product-image" href="{$linked_goods_data.url}" target="_blank" title="{$goods.linked_goods_data_name|escape:html}">
+                              <img src="{$linked_goods_data.goods_thumb}" alt="{$linked_goods_data.name|escape:html}" width="262" height="309">
+                            </a>
+                            <h3 class="product-name">
+                              <a href="{$linked_goods_data.url}" target="_blank" title="{$goods.linked_goods_data_name|escape:html}">
+                                {$linked_goods_data.short_name|escape:html}
+                              </a>
+                            </h3>
+                            <div class="hover">
+                              <div class="price-box">
+                                <span class="regular-price" id="product-price-13">
+                                  <span class="price">
+                                    {$linked_goods_data.shop_price}
+                                  </span>
+                                </span>
+                              </div>
+                            </div>
+                            <div class="confix-produclist">
+                              <div class="add-to-links">
+                                <div class="wishlist">
+                                  <a href="#" data-id="13" data-placement="left" class="link-wishlist mt-tooltip"
+                                  data-original-title="收藏">
+                                    <i class="fa fa fa-heart-o">
+                                    </i>
+                                  </a>
+                                </div>
+                                <div class="compare">
+                                  <a href="{$linked_goods_data.url}" data-id="13" data-placement="left" class="link-compare  mt-tooltip"
+                                  data-original-title="详情">
+                                    <i class="fa fa-expand">
+                                    </i>
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="mt-actions">
+                              <div class="addtocart">
+                                <a href="{$linked_goods_data.url}" target="_blank" title="{$goods.linked_goods_data_name|escape:html}"><button type="button" data-placement="left" class="button btn-cart mt-tooltip"
+                                onclick="setLocation('#')" data-original-title="加入购物车">
+                                  <span>
+                                    <span>
+                                      <i class="fa mt-fa-shopping-cart">
+                                      </i>
+                                      加入购物车
+                                    </span>
+                                  </span>
+                                </button></a>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                          <!-- {/foreach} -->
+                        <!-- {/if} -->
+                        <!-- 结束属性关联的商品 {/foreach}-->
+           </ul> 
+          </div> 
+          <script type="text/javascript" src="js/frontend.js">
+                    </script> 
+         </div> 
+         <script type="text/javascript">
+                    var lifetime = 3600;
+                    var expireAt = Mage.Cookies.expires;
+                    if (lifetime > 0) {
+                      expireAt = new Date();
+                      expireAt.setTime(expireAt.getTime() + lifetime * 1000);
+                    }
+                    Mage.Cookies.set('external_no_cache', 1, expireAt);
+                  </script> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="parallax"> 
+      <div class="main"> 
+       <div class="row"> 
+        <div class="mt-parallax"> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="mt-bottom"> 
+      <div class="container"> 
+       <div class="row"> 
+       </div> 
+      </div> 
+     </div> 
+    </section> 
+        <!-- #BeginLibraryItem "/library/page_footer.lbi" --><!-- #EndLibraryItem -->
+    <script type="text/javascript">
+          function setGridItem($) {
+            var winWidth = $(window).width();
+            var col = 3;
+            if (winWidth > 768) {
+              newcol = col;
+            }
+            if (winWidth < 768 && winWidth >= 640) {
+              newcol = 3;
+            }
+            if (winWidth >= 480 && winWidth < 640) {
+              newcol = 2;
+            }
+            if (winWidth < 480) {
+              newcol = 2;
+            }
+            $i = 0;
+            $('.show-grid > .item').each(function() {
+              $i++;
+              $(this).removeClass('first');
+              $(this).removeClass('last');
+              if (($i - 1) % newcol == 0) {
+                $(this).addClass('first');
+              } else if ($i % newcol == 0) {
+                $(this).addClass('last');
+              }
+            });
+          }
+          $mt(function($) {
+            var winWidth = $(window).width();
+            var winHeight = $(window).height();
+            var windowResize_t;
+            $(window).resize(function() {
+              var winNewWidth = $(window).width();
+              var winNewHeight = $(window).height();
+              if (winWidth != winNewWidth || winHeight != winNewHeight) {
+                clearTimeout(windowResize_t);
+                windowResize_t = setTimeout(function() {
+                  $(document).trigger("themeResize");
+                  setGridItem($);
+                },
+                200);
+              }
+              winWidth = winNewWidth;
+              winHeight = winNewHeight;
+            });
+            $('.mt-maincompare').hover(function() {
+              $(this).addClass('compare-active').find('.mtajaxcompare').stop().delay(200).slideDown();
+            },
+            function() {
+              $(this).removeClass('compare-active').find('.mtajaxcompare').stop().delay(200).slideUp();
+            });
+            $('.setting-big').hover(function() {
+              $(this).addClass('setting-bi-active').find('.mtsettingbig').stop().delay(200).slideDown();
+            },
+            function() {
+              $(this).removeClass('setting-bi-active').find('.mtsettingbig').stop().delay(200).slideUp();
+            });
+            $("#select-language").selectbox();
+            $("#select-currency").selectbox();
+            //lazyload
+            $("img.lazy").lazy({
+              effect: "fadeIn",
+              effectTime: 800,
+              threshold: 50,
+              afterLoad: function(element) {}
+            });
+            var text = $(".form-language a.sbSelector").text().toLowerCase();
+            $(".form-language a.sbSelector").css({
+              "background-image": "url('images/" + text + ".png')",
+              "background-repeat": "no-repeat",
+              "background-position": "left center"
+            });
+
+            //Back to top
+            $(window).scroll(function() {
+              if ($(this).scrollTop() > 100) {
+                $('#back-top').fadeIn();
+              } else {
+                $('#back-top').fadeOut();
+              }
+            });
+            $('#back-top a').click(function() {
+              $('body,html').animate({
+                scrollTop: 0
+              },
+              800);
+              return false;
+            });
+
+            $('.bottom-content').click(function() {
+              $('html, body').animate({
+                scrollTop: $('.show-grid-slide').height()
+              },
+              800);
+              return false;
+            });
+
+            //Cart header
+            $('.mt-maincart').hover(function() {
+              $(this).addClass('cart-active').find('.ajaxcart').stop().delay(200).slideDown();
+            },
+            function() {
+              $(this).removeClass('cart-active').find('.ajaxcart').stop().delay(200).slideUp();
+            });
+            //Quickview
+            $('.product-quickview').live('click',
+            function() {
+              $.colorbox({
+                iframe: true,
+                href: this.href,
+                opacity: 0.5,
+                speed: 300,
+                current: '{current} / {total}',
+                close: "close",
+                innerWidth: '765px',
+                innerHeight: '650px',
+                onOpen: function() {
+                  $('#cboxLoadingGraphic').addClass('box-loading');
+                },
+                onComplete: function() {
+                  setTimeout(function() {
+                    $('#cboxLoadingGraphic').removeClass('box-loading');
+                  },
+                  1300);
+                }
+              });
+            });
+
+            $('.show-quickview').live('click',
+            function(e) {
+              if ($('.btn-cart-mobile').length == 0) {
+                $('[data-id=quickview-' + $(this).attr('data-id') + ']').trigger('click');
+              } else {
+                return window.location.href = $(this).attr('data-submit');
+              }
+            });
+          });
+          $mt(window).load(function() {
+            setGridItem($mt);
+            $mt.browserSelector();
+            if ($mt("html").hasClass("chrome")) {
+              $mt.smoothScroll();
+            }
+            if ($mt("html").hasClass("safari")) {
+              $mt.smoothScroll();
+            }
+            $mt(".mt-tooltip").tooltip();
+
+            var selectToggle = '<i class="fa fa-angle-down"></i>',
+            flextPrev = '<i class="fa fa-angle-left"></i>',
+            flextNext = '<i class="fa fa-angle-right"></i>';
+
+            $mt(".flex-direction-nav a, .more-views .more-views-prev, .more-views .more-views-next").empty();
+            $mt(".more-views").addClass("nav-wrapper-view");
+            //$mt(".sbToggle").append(selectToggle);
+            $mt(".flex-direction-nav a.flex-prev").append(flextPrev);
+            $mt(".flex-direction-nav a.flex-next").append(flextNext);
+
+            wow = new WOW({
+              boxClass: 'wow',
+              animateClass: 'animated',
+              offset: 100
+            });
+            wow.init();
+          });
+          $mt(".accordion-footer").addClass("accordion-show");
+          $mt(".accordion-footer").click(function() {
+            if ($mt(this).parent().next().is(":visible")) {
+              $mt(this).addClass("accordion-show");
+            } else {
+              $mt(this).removeClass("accordion-show");
+            }
+            $mt(this).parent().next().toggle(400);
+          });
+          //Background category header//
+          $mt(document).ready(function() {
+            var iconSearch = $mt(".quick-access").find(".mt-icon-ajax").find(".fa-search"),
+            formSearch = $mt(".quick-access").find(".form-search"),
+            headerOverlay = $mt(".header-content").find(".header-act");
+            $mt(iconSearch).click(function() {
+              if ($mt(formSearch).is(":visible")) {
+                $mt(formSearch).fadeOut(100);
+                $mt(this).removeClass("fa-arrows-alt").addClass("fa-search");
+                $mt(headerOverlay).removeClass("header-overlay");
+                $mt(this).attr("data-icon", "U");
+              } else {
+                $mt(formSearch).fadeIn(100);
+                $mt(this).removeClass("fa-search").addClass("fa-arrows-alt");
+                $mt(headerOverlay).addClass("header-overlay");
+                $mt(this).attr("data-icon", "M");
+              }
+            });
+          });
+
+          function iconFontAwesome() {
+            //add font icon awesome
+            $mt(".top-link .links li a").append("<i></i>");
+            $mt(".top-link .links li.first i").addClass("fa fa-user");
+            $mt(".top-link .links li a.top-link-cart i").addClass("fa fa-shopping-cart");
+            $mt(".top-link .links li a.top-link-wishlist i").addClass("fa fa-heart-o");
+            $mt(".top-link .links li a.top-link-checkout i").addClass("fa fa-check");
+            $mt(".top-link .links li.last i").addClass("fa fa-unlock-alt");
+          }
+        </script> 
+    <script type="text/javascript">
+          (function($) {
+            $('.block-wishlist #wishlist-sidebar a').live('click',
+            function() {
+              if (confirm($(this).attr('data-confirm'))) {
+                removetowishlist($(this));
+              }
+              return false;
+            });
+            $('.block-wishlist-header #wishlist-header a.btn-remove').live('click',
+            function() {
+              if (confirm($(this).attr('data-confirm'))) {
+                removetowishlist($(this));
+              }
+              return false;
+            });
+            $('.add-to-links a.link-wishlist').live('click',
+            function() {
+              addtowishlist($(this));
+              return false;
+            });
+            if ($('.product-view').length > 0) {
+              productAddToCartForm.submitLight = function(button, url) {
+                return false;
+              }.bind(productAddToCartForm);
+            }
+            $('.add-to-links a.link-compare').live('click',
+            function() {
+              addtocompare($(this));
+              return false;
+            });
+            $('.block-compare #compare-items a, .block-top-compare a.btn-remove').live('click',
+            function() {
+              if (confirm($(this).attr('data-confirm'))) {
+                removecompare($(this));
+              }
+              return false;
+            });
+            $('.block-compare .clearall a, .block-compare .actions a, .block-top-compare .clearall a').live('click',
+            function() {
+              if (confirm($(this).attr('data-confirm'))) {
+                clearallcompare($(this));
+              }
+              return false;
+            });
+          })($mt);
+        </script> 
+    <div style="display: none"> 
+     <style type="text/css">
+            #cboxContent.newsletterbox{ background-image: url(images/banner1.jpg);
+            background-position: left top; background-repeat: no-repeat; background-size:
+            cover; background-color: transparent; }
+          </style> 
+     <div id="mt_newsletter" class="block block-subscribe block-subscribe-popup"> 
+      <div class="block-title"> 
+       <strong> <span> Newsletter </span> </strong> 
+      </div> 
+      <div class="intro"> 
+       <p> Subscribe to the MT Bakery mailing list to receive updates on new arrivals, special offers and other discount information. </p> 
+      </div> 
+      <form action="index.php/newsletter/subscriber/new/" method="post" id="newsletter-validate-detail-popup"> 
+       <div class="block-content"> 
+        <div class="input-box"> 
+         <input name="email" type="text" id="newsletter" value="Enter your email address" onclick="this.value=='Enter your email address'?this.value='':''" onblur="this.value==''?this.value='Enter your email address':''" class="input-text required-entry validate-email" /> 
+         <div class="actions"> 
+          <button type="submit" title="Subscribe" class="button"> <span> <span> Subscribe </span> </span> </button> 
+         </div> 
+        </div> 
+        <label class="subcriper_label"> <input type="checkbox" /> Don’t show this popup again </label> 
+       </div> 
+      </form> 
+     </div> 
+    </div> 
+   </section> 
+  </section>  
+ </body>
+</html>

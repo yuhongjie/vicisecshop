@@ -1,0 +1,373 @@
+                      <div class="toolbar">
+                        <div class="toolbar-top">
+                          <form method="GET" class="sort" name="listform">
+                            <div class="sorter">
+                              <div class="sort-by">
+                                <p class="mt-toolbar-label">
+                                  <label>
+                                    排序
+                                  </label>
+                                </p>
+                                <select onchange="setLocation(this.value)" class="mt-sort mt_sort_by" sb="5972356" style="display: none;">
+                                  <option value="date" <!-- {if $pager.sort == 'goods_id'} -->selected="selected"<!-- {/if} -->>
+                                    时间
+                                  </option>
+                                  <option value="price" <!-- {if $pager.sort == 'shop_price'} -->selected="selected"<!-- {/if} -->>
+                                    价格
+                                  </option>
+                                  <option value="update" <!-- {if $pager.sort == 'last_update'} -->selected="selected"<!-- {/if} -->>
+                                    更新
+                                  </option>
+                                </select>
+                                <p class="mt-sort-arrows">
+                                  <a title="Set Descending Direction" href="javascript:void(0);" onclick="setSorting()">
+                                    <span class="<!-- {if $pager.order == 'DESC'} -->arrow_triangle-down<!-- {else} -->arrow_triangle-up<!-- {/if} -->" aria-hidden="true"></span>
+                                  </a>
+                                </p>
+                              </div>
+                              <div class="limiter">
+                                <p class="mt-toolbar-label mt-slabel-1">
+                                  <label>
+                                    显示个数
+                                  </label>
+                                </p>
+                                <select onchange="setLocation(this.value)" class="mt-limit mt_limiter"
+                                sb="53227086" style="display: none;">
+                                  <option value="nine" <!-- {if $pager.size == 'nine'} -->selected="selected"<!-- {/if} -->>
+                                    9
+                                  </option>
+                                  <option value="fifteen" <!-- {if $pager.size == 'fifteen'} -->selected="selected"<!-- {/if} -->>
+                                    15
+                                  </option>
+                                  <option value="thirty" <!-- {if $pager.size == 'thirty'} -->selected="selected"<!-- {/if} -->>
+                                    30
+                                  </option>
+                                </select>
+                              </div>
+                                <script type="text/javascript">
+                                    function getUrlParam(name) {
+                                        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)"); 
+                                        var r = window.location.search.substr(1).match(reg);  
+                                        if (r != null) return unescape(r[2]); return null; 
+                                        }
+                                    function setLocation(productValue) {
+                                        if(productValue=='date'){
+                                             window.location.href="{$script_name}.php?category={$category}&display={$pager.display}&brand={$brand_id}&price_min={$price_min}&price_max={$price_max}&filter_attr={$filter_attr}&page={$pager.page}&sort=goods_id&order=<!-- {if $pager.sort == 'goods_id' && $pager.order == 'DESC'} -->ASC<!-- {else} -->DESC<!-- {/if} -->&size={$pager.size}#goods_list"; 
+                                        }
+                                        if(productValue=='price'){
+                                             window.location.href="{$script_name}.php?category={$category}&display={$pager.display}&brand={$brand_id}&price_min={$price_min}&price_max={$price_max}&filter_attr={$filter_attr}&page={$pager.page}&sort=shop_price&order=<!-- {if $pager.sort == 'shop_price' && $pager.order == 'ASC'} -->DESC<!-- {else} -->ASC<!-- {/if} -->&size={$pager.size}#goods_list"; 
+                                        }
+                                        if(productValue=='update'){
+                                             window.location.href="{$script_name}.php?category={$category}&display={$pager.display}&brand={$brand_id}&price_min={$price_min}&price_max={$price_max}&filter_attr={$filter_attr}&page={$pager.page}&sort=last_update&order=<!-- {if $pager.sort == 'last_update' && $pager.order == 'DESC'} -->ASC<!-- {else} -->DESC<!-- {/if} -->&size={$pager.size}#goods_list"; 
+                                        }
+                                        if(productValue=='nine'){
+                                             window.location.href="{$script_name}.php?category={$category}&display={$pager.display}&brand={$brand_id}&price_min={$price_min}&price_max={$price_max}&filter_attr={$filter_attr}&page={$pager.page}&sort=goods_id&order=<!-- {if $pager.sort == 'goods_id' && $pager.order == 'DESC'} -->ASC<!-- {else} -->DESC<!-- {/if} -->&size=9#goods_list"; 
+                                        }
+                                        if(productValue=='fifteen'){
+                                             window.location.href="{$script_name}.php?category={$category}&display={$pager.display}&brand={$brand_id}&price_min={$price_min}&price_max={$price_max}&filter_attr={$filter_attr}&page={$pager.page}&sort=shop_price&order=<!-- {if $pager.sort == 'shop_price' && $pager.order == 'ASC'} -->DESC<!-- {else} -->ASC<!-- {/if} -->&size=15#goods_list"; 
+                                        }
+                                        if(productValue=='thirty'){
+                                             window.location.href="{$script_name}.php?category={$category}&display={$pager.display}&brand={$brand_id}&price_min={$price_min}&price_max={$price_max}&filter_attr={$filter_attr}&page={$pager.page}&sort=last_update&order=<!-- {if $pager.sort == 'last_update' && $pager.order == 'DESC'} -->ASC<!-- {else} -->DESC<!-- {/if} -->&size=30#goods_list"; 
+                                        }
+                                    }
+                                    function setSorting() {
+                                        var strSorting = getUrlParam('sort');
+                                        if(strSorting=='goods_id'){
+                                             window.location.href="{$script_name}.php?category={$category}&display={$pager.display}&brand={$brand_id}&price_min={$price_min}&price_max={$price_max}&filter_attr={$filter_attr}&page={$pager.page}&sort=goods_id&order=<!-- {if $pager.sort == 'goods_id' && $pager.order == 'DESC'} -->ASC<!-- {else} -->DESC<!-- {/if} -->&size={$pager.size}#goods_list"; 
+                                        }
+                                        else if(strSorting=='shop_price'){
+                                             window.location.href="{$script_name}.php?category={$category}&display={$pager.display}&brand={$brand_id}&price_min={$price_min}&price_max={$price_max}&filter_attr={$filter_attr}&page={$pager.page}&sort=shop_price&order=<!-- {if $pager.sort == 'shop_price' && $pager.order == 'ASC'} -->DESC<!-- {else} -->ASC<!-- {/if} -->&size={$pager.size}#goods_list"; 
+                                        }
+                                        else if(strSorting=='last_update'){
+                                             window.location.href="{$script_name}.php?category={$category}&display={$pager.display}&brand={$brand_id}&price_min={$price_min}&price_max={$price_max}&filter_attr={$filter_attr}&page={$pager.page}&sort=last_update&order=<!-- {if $pager.sort == 'last_update' && $pager.order == 'DESC'} -->ASC<!-- {else} -->DESC<!-- {/if} -->&size={$pager.size}#goods_list"; 
+                                        }
+                                        else {
+                                             window.location.href="{$script_name}.php?category={$category}&display={$pager.display}&brand={$brand_id}&price_min={$price_min}&price_max={$price_max}&filter_attr={$filter_attr}&page={$pager.page}&sort=goods_id&order=<!-- {if $pager.sort == 'goods_id' && $pager.order == 'DESC'} -->ASC<!-- {else} -->DESC<!-- {/if} -->&size={$pager.size}#goods_list"; 
+                                        }
+                                    }
+                                </script>
+                                <p class="view-mode">
+                                    {$lang.btn_display}：
+                                    <a href="javascript:;" title="List" class="list <!-- {if $pager.display == 'grid'} -->active<!-- {/if} -->" onClick="javascript:display_mode('grid')"><i class="fa fa-th"></i></a>
+                                    <a href="javascript:;" title="Grid" class="grid <!-- {if $pager.display == 'list'} -->active<!-- {/if} -->" onClick="javascript:display_mode('list')"><i class="fa fa-list-ul"></i></a>
+                                </p>
+                            </div>
+                            <input type="hidden" name="category" value="{$category}" />
+                            <input type="hidden" name="display" value="{$pager.display}" id="display" />
+                            <input type="hidden" name="brand" value="{$brand_id}" />
+                            <input type="hidden" name="price_min" value="{$price_min}" />
+                            <input type="hidden" name="price_max" value="{$price_max}" />
+                            <input type="hidden" name="filter_attr" value="{$filter_attr}" />
+                            <input type="hidden" name="page" value="{$pager.page}" />
+                            <input type="hidden" name="size" value="{$pager.size}" />
+                            <input type="hidden" name="sort" value="{$pager.sort}" />
+                            <input type="hidden" name="order" value="{$pager.order}" />
+                          </form>
+                        </div>
+                      </div>
+                      
+                      <script type="text/javascript">
+                        $mt(function($) {
+                          $(".mt_sort_by, .mt_limiter").selectbox();
+                        });
+                      </script>
+                      <!-- {if $category > 0} -->
+                      <form name="compareForm" action="compare.php" method="post" onSubmit="return compareGoods(this);">
+                      <!-- {/if} -->
+                        <!-- {if $pager.display == 'grid'} -->
+                            <div class="product-news">
+                              <ul class="products-grid itemgrid itemgrid-adaptive products-itemgrid-3col show-grid last odd">
+                              <!--{foreach from=$goods_list item=goods name=good_products}-->
+                              <!-- {if $goods.url} -->
+                                <li class="item <!--{if $smarty.foreach.good_products.iteration % 3 === 0}-->last<!--{/if}-->">
+                                  <div class="item-upsell">
+                                    <a class="product-image" href="{$goods.url}" title=" {$goods.name|escape:html}">
+                                      <img src="{$goods.goods_thumb}" alt="{$goods.goods_name}" width="262" height="309">
+                                    </a>
+                                    <h3 class="product-name">
+                                      <a href="{$goods.url}" title=" {$goods.name|escape:html}">
+                                        {$goods.goods_name}
+                                      </a>
+                                    </h3>
+                                    <div class="hover">
+                                      <div class="price-box">
+                                        <span class="regular-price" id="product-price-11">
+                                          <span class="price">
+                                            {$goods.market_price}
+                                          </span>
+                                        </span>
+                                      </div>
+                                    </div>
+                                    <div class="confix-produclist">
+                                      <div class="add-to-links">
+                                        <div class="wishlist">
+                                          <a href="javascript:collect('{$goods.goods_id}');" data-id="11" data-placement="left" class="link-wishlist mt-tooltip"
+                                          data-original-title="收藏">
+                                            <i class="fa fa fa-heart-o">
+                                            </i>
+                                          </a>
+                                        </div>
+                                        <div class="compare">
+                                          <a href="{$goods.url}" data-id="11" data-placement="left" class="link-compare  mt-tooltip"
+                                          data-original-title="详情">
+                                            <i class="fa fa-expand">
+                                            </i>
+                                          </a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="mt-actions">
+                                      <div class="addtocart">
+                                        <a href="{$goods.url}"><button type="button" data-placement="left" class="button btn-cart mt-tooltip" data-original-title="加入购物车">
+                                          <span>
+                                            <span>
+                                              <i class="fa mt-fa-shopping-cart">
+                                              </i>
+                                              加入购物车
+                                            </span>
+                                          </span>
+                                        </button></a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </li>
+                              <!-- {/if} -->
+                              <!--{/foreach}-->
+                              </ul>
+                            </div>
+                        <!-- {elseif $pager.display == 'list'} -->
+                            <div class="products-list show-grid" id="products-list">
+                              <!--{foreach from=$goods_list item=goods}-->
+                              <div class="col-lg-12 item hover-effect odd">
+                                <div class="grid12-4">
+                                  <div class="product-hover">
+                                    <a href="{$goods.url}" title=" {$goods.name|escape:html}" class="product-image">
+                                      <span class="front margin-image ">
+                                        <img src="{$goods.goods_thumb}" alt="{$goods.goods_name}" class="img-responsive lazy " style="display: block;">
+                                      </span>
+                                    </a>
+                                  </div>
+                                </div>
+                                <div class="product-shop grid12-8">
+                                  <div class="f-fix">
+                                    <h2 class="product-name">
+                                      <a href="{$goods.url}" title=" {$goods.name|escape:html}">
+                                        {$goods.goods_name}
+                                      </a>
+                                    </h2>
+                                    <div class="wrapper-product">
+                                      <div class="price-box">
+                                        <span class="regular-price" id="product-price-13">
+                                          <span class="price">
+                                            {$goods.market_price}
+                                          </span>
+                                        </span>
+                                      </div>
+                                    </div>
+                                    <div class="desc std">
+                                      产品描述信息...
+                                      <a href="{$goods.url}" title=" {$goods.name|escape:html}" class="link-learn">
+                                        了解更多
+                                      </a>
+                                    </div>
+                                    <div class="top-actions-list">
+                      
+                                      <div class="product-right pull-left">
+                                
+                                        <a href="{$goods.url}"><button type="button" title="Add to Cart" class="button btn-cart pull-left  ">
+                                          <span>
+                                            <span>
+                                              加入购物车
+                                            </span>
+                                          </span>
+                                        </button></a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <!--{/foreach}-->
+                            </div>
+                        <!-- {/if} -->
+                      <!-- {if $category > 0} -->
+                      </form>
+                      <!-- {/if} -->
+                      <script type="text/javascript">
+                        decorateGeneric($$('ul.products-grid'), ['odd', 'even', 'first', 'last'])
+                      </script>
+                      <div class="toolbar-bottom" style="clear:both;">
+                        <div class="toolbar">
+                          <div class="toolbar-top">
+                            <div class="sorter">
+                              <p class="amount">
+                                <strong>
+                                  4 Item(s)
+                                </strong>
+                              </p>
+                              <div class="sort-by">
+                                <p class="mt-toolbar-label">
+                                  <label>
+                                    Sort By
+                                  </label>
+                                </p>
+                                <select onchange="setLocation(this.value)" class="mt-sort mt_sort_by"
+                                sb="95027944" style="display: none;">
+                                  <option value=""
+                                  selected="selected">
+                                    Position
+                                  </option>
+                                  <option value="">
+                                    Name
+                                  </option>
+                                  <option value="">
+                                    Price
+                                  </option>
+                                </select>
+                                <div id="sbHolder_95027944" class="sbHolder">
+                                  <a id="sbToggle_95027944" href="#" class="sbToggle">
+                                  </a>
+                                  <a id="sbSelector_95027944" href="#" class="sbSelector">
+                                    Position
+                                  </a>
+                                  <ul id="sbOptions_95027944" class="sbOptions" style="display: none;">
+                                    <li>
+                                      <a href="#"
+                                      rel="#"
+                                      class="sbFocus">
+                                        Position
+                                      </a>
+                                    </li>
+                                    <li>
+                                      <a href="#"
+                                      rel="#">
+                                        Name
+                                      </a>
+                                    </li>
+                                    <li>
+                                      <a href="#"
+                                      rel="#">
+                                        Price
+                                      </a>
+                                    </li>
+                                  </ul>
+                                </div>
+                                <p class="mt-sort-arrows">
+                                  <a href="#"
+                                  title="Set Descending Direction">
+                                    <span class="arrow_triangle-down" aria-hidden="true">
+                                    </span>
+                                  </a>
+                                </p>
+                              </div>
+                              <div class="limiter">
+                                <p class="mt-toolbar-label mt-slabel-1">
+                                  <label>
+                                    Show
+                                  </label>
+                                </p>
+                                <select onchange="setLocation(this.value)" class="mt-limit mt_limiter"
+                                sb="46147130" style="display: none;">
+                                  <option value="#"
+                                  selected="selected">
+                                    9
+                                  </option>
+                                  <option value="#">
+                                    15
+                                  </option>
+                                  <option value="#">
+                                    30
+                                  </option>
+                                </select>
+                                <div id="sbHolder_46147130" class="sbHolder">
+                                  <a id="sbToggle_46147130" href="#" class="sbToggle">
+                                  </a>
+                                  <a id="sbSelector_46147130" href="#" class="sbSelector">
+                                    9
+                                  </a>
+                                  <ul id="sbOptions_46147130" class="sbOptions" style="display: none;">
+                                    <li>
+                                      <a href="#"
+                                      rel="#"
+                                      class="sbFocus">
+                                        9
+                                      </a>
+                                    </li>
+                                    <li>
+                                      <a href="#"
+                                      rel="#">
+                                        15
+                                      </a>
+                                    </li>
+                                    <li>
+                                      <a href="#"
+                                      rel="#">
+                                        30
+                                      </a>
+                                    </li>
+                                  </ul>
+                                </div>
+                                <!-- <p class="pull-left mt-toolbar-label mt-slabel-2">-->
+                                <!--</p>-->
+                              </div>
+                              <p class="view-mode">
+                                <!-- <label>-->
+                                <!--:</label>-->
+                                <a href="javascript:void(0)" title="Grid" class="grid active">
+                                  <i class="fa fa-th">
+                                  </i>
+                                </a>
+                                <a href="product_list2.html"
+                                title="List" class="list">
+                                  <i class="fa fa-list-ul">
+                                  </i>
+                                </a>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <script type="text/javascript">
+                          $mt(function($) {
+                            $(".mt_sort_by, .mt_limiter").selectbox();
+                          });
+                        </script>
+                      </div>

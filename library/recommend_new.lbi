@@ -1,0 +1,74 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- {if $new_goods} -->
+  <!-- {if $cat_rec_sign neq 1} -->
+    <div class="product-news" id="widget-1c360e5209e8ac2785484b0c261a4612">
+        <h2>
+            春季新品
+        </h2>
+        <ul class="products-grid ">
+          <!--{foreach from=$new_goods item=goods name=recommend_new}-->
+            <!--{if $smarty.foreach.recommend_new.iteration < 5}-->
+              <li class="item">
+                  <div class="item-upsell">
+                      <a class="product-image" href="#"
+                      title=" 薇茜甜点">
+                          <span class="product-new-label">
+                              New
+                          </span>
+                          <img src="images/3.jpg"
+                          width="262" height="309" alt="薇茜甜点" />
+                      </a>
+                      <h3 class="product-name">
+                          <a href="#" title=" 薇茜甜点">
+                              薇茜甜点
+                          </a>
+                      </h3>
+                      <div class="hover">
+                          <div class="price-box">
+                              <span class="regular-price" id="product-price-13">
+                                  <span class="price">
+                                      ￥120.00
+                                  </span>
+                              </span>
+                          </div>
+                      </div>
+                      <div class="confix-produclist">
+                          <div class="add-to-links">
+                              <div class="wishlist">
+                                  <a href="#"
+                                  data-id="13" title="收藏" data-placement="left" class="link-wishlist mt-tooltip">
+                                      <i class="fa fa fa-heart-o">
+                                      </i>
+                                  </a>
+                              </div>
+                              <div class="compare">
+                                  <a href="#"
+                                  data-id="13" title="详情" data-placement="left" class="link-compare  mt-tooltip">
+                                      <i class="fa fa-expand">
+                                      </i>
+                                  </a>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="mt-actions">
+                          <div class="addtocart">
+                              <button type="button" title="加入购物车" data-placement="left" class="button btn-cart mt-tooltip "
+                              onclick="setLocation('#')">
+                                  <span>
+                                      <span>
+                                          <i class="fa mt-fa-shopping-cart">
+                                          </i>
+                                          加入购物车
+                                      </span>
+                                  </span>
+                              </button>
+                          </div>
+                      </div>
+                  </div>
+              </li>
+            <!--{/if}-->
+          <!--{/foreach}-->
+        </ul>
+    </div>
+  <!-- {/if} -->
+<!-- {/if} -->

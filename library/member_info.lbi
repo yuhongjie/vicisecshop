@@ -1,0 +1,63 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+{if $user_info}
+  <div class="mt-top-cart pull-right">
+      <div class="quick-access">
+          <div id="search_mini_form" action="#"
+          method="get">
+              <div class="search-style">
+                  <div class="mt-icon-ajax">
+                      <a href="user.php?act=logout" class="mt-cart-label home-reg">退出</a>
+                  </div>
+              </div>
+
+          </div>
+      </div>
+  </div>
+  <div class="top-seach pull-right ">
+      <div class="mt-maincart">
+          <div class="mt-cart">
+              <div class="border-left">
+              </div>
+              <div class="mt-icon-ajaxcart">
+                  <a href="user.php" class="mt-cart-label home-reg">空间</a>
+              </div>
+              <div class="border-right">
+              </div>
+          </div>
+      </div>
+ 
+  </div>
+{else}
+
+  <div class="mt-top-cart pull-right ">
+      <div class="mt-maincart">
+          <div class="mt-cart">
+              <div class="border-left">
+              </div>
+              <div class="mt-icon-ajaxcart">
+                  <a class="mt-cart-label home-reg" href="user.php?act=register">
+                      注册
+                  </a>
+              </div>
+              <div class="border-right">
+              </div>
+          </div>
+      </div>
+ 
+  </div>
+  <div class="top-seach pull-right">
+      <div class="quick-access">
+          <div id="search_mini_form" action="#"
+          method="get">
+              <div class="search-style">
+                  <div class="mt-icon-ajax">
+                      <a class="mt-cart-label home-reg" href="user.php">
+                          登入
+                      </a>
+                  </div>
+              </div>
+
+          </div>
+      </div>
+  </div>
+{/if}

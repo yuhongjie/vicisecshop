@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="Keywords" content="{$keywords}" />
+    <meta name="Description" content="{$description}" />
+    <!-- TemplateBeginEditable name="doctitle" -->
+    <title>{$page_title}</title>
+    <!-- TemplateEndEditable -->
+    <!-- TemplateBeginEditable name="head" -->
+    <!-- TemplateEndEditable -->
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="icon" href="animated_favicon.gif" type="image/gif" />
+    <link rel="alternate" type="application/rss+xml" title="RSS|{$page_title}" href="{$feed_url}" />
+        <!--[if IE 8 ]>
+            <html class="ie8" <![endif]-->
+                <!--[if IE 9 ]>
+                    <html class="ie9">
+                    <![endif]-->
+                    <!--[if lt IE 7]>
+                        <script type="text/javascript">
+                            //<![CDATA[
+                            var BLANK_URL = 'js/blank.html';
+                            var BLANK_IMG = 'js/spacer.gif';
+                            //]]>
+                            
+                        </script>
+                    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="themes/vicis/css/home.css"/>
+    <link rel="stylesheet" type="text/css" href="themes/vicis/css/owl.carousel.css" />
+    <link rel="stylesheet" type="text/css" href="themes/vicis/css/owl.theme.css" />
+    <link rel="stylesheet" type="text/css" href="themes/vicis/css/owl.transitions.css"/>
+    <link rel="stylesheet" type="text/css" href="themes/vicis/css/effects.css" />
+    <link rel="stylesheet" type="text/css" href="themes/vicis/css/styles.css" media="all"/>
+    <link rel="stylesheet" type="text/css" href="themes/vicis/css/widgets.css" media="all"/>
+    <link rel="stylesheet" type="text/css" href="themes/vicis/css/newsletter.css" media="all"/>
+    <link rel="stylesheet" type="text/css" href="themes/vicis/css/ajaxcart.css" media="all"/>
+    <link rel="stylesheet" type="text/css" href="themes/vicis/css/bootstrap.min.css" media="all"/>
+    <link rel="stylesheet" type="text/css" href="themes/vicis/css/font-awesome.min.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="themes/vicis/css/elegantfont.css" media="all"/>
+    <link rel="stylesheet" type="text/css" href="themes/vicis/css/megamenu.css" media="all"/>
+    <link rel="stylesheet" type="text/css" href="themes/vicis/css/accordion.css" media="all"/>
+    <link rel="stylesheet" type="text/css" href="themes/vicis/css/animate.css" media="all"/>
+    <link rel="stylesheet" type="text/css" href="themes/vicis/css/responsive.css" media="all"/>
+    <link rel="stylesheet" type="text/css" href="themes/vicis/css/rtl.css" media="all"/>
+    <link rel="stylesheet" type="text/css" href="themes/vicis/css/colorbox.css" media="all"/>
+    <link rel="stylesheet" type="text/css" href="themes/vicis/css/design_default.css" media="all"/>
+    <link rel="stylesheet" type="text/css" href="themes/vicis/css/layout_default.css" media="all"/>
+    <link rel="stylesheet" type="text/css" href="themes/vicis/css/print.css" media="print"/>
+        <script type="text/javascript" src="js/prototype.js">
+        </script>
+        <script type="text/javascript" src="js/ccard.js">
+        </script>
+        <script type="text/javascript" src="js/validation.js">
+        </script>
+        <script type="text/javascript" src="js/builder.js">
+        </script>
+        <script type="text/javascript" src="js/effects.js">
+        </script>
+        <script type="text/javascript" src="js/dragdrop.js">
+        </script>
+        <script type="text/javascript" src="js/controls.js">
+        </script>
+        <script type="text/javascript" src="js/slider.js">
+        </script>
+        <script type="text/javascript" src="js/js.js">
+        </script>
+        <script type="text/javascript" src="js/form.js">
+        </script>
+        <script type="text/javascript" src="js/menu.js">
+        </script>
+        <script type="text/javascript" src="js/translate.js">
+        </script>
+        <script type="text/javascript" src="js/cookies.js">
+        </script>
+        <script type="text/javascript" src="js/jquery-1.8.2.min.js">
+        </script>
+        <script type="text/javascript" src="js/wow.min.js">
+        </script>
+        <script type="text/javascript" src="js/bootstrap.min.js">
+        </script>
+        <script type="text/javascript" src="js/bootstrap-tooltip.js">
+        </script>
+        <script type="text/javascript" src="js/collapse.js">
+        </script>
+        <script type="text/javascript" src="js/jquery.lib.min.js">
+        </script>
+        <script type="text/javascript" src="js/jquery.ajaxcart.min.js">
+        </script>
+        <script type="text/javascript" src="js/jquery.cookie.js">
+        </script>
+          {* 包含脚本文件 *}
+          {insert_scripts files='common.js,compare.js'}
+          {insert_scripts files='transport.js'}
+                    <!--[if lt IE 8]>
+                        <link rel="stylesheet" type="text/css" href="css/styles-ie.css"
+                        media="all" />
+                    <![endif]-->
+                    <!--[if lt IE 7]>
+                        <script type="text/javascript" src="js/ds-sleight.js">
+                        </script>
+                        <script type="text/javascript" src="js/lte-ie7.js">
+                        </script>
+                        <script type="text/javascript" src="js/ie6.js">
+                        </script>
+                    <![endif]-->
+                    <!--[if lt IE 9]>
+                        <script type="text/javascript" src="js/html5shiv.js">
+                        </script>
+                        <script type="text/javascript" src="js/respond.min.js">
+                        </script>
+                    <![endif]-->
+                    <!--[if IE]>
+                        <link rel="stylesheet" type="text/css" href="css/fonts-iex.css"
+                        media="all" />
+                    <![endif]-->
+                    <script type="text/javascript">
+                        var MT = MT || {};
+                        MT.FORM_KEY = 'dnmliRwQwVwIe5C2';
+
+                        function setLocationWidget(url) {
+                            if (url.indexOf('form_key/') !== -1) {
+                                var part = url.split('form_key/')[1],
+                                formKey = part.split('/')[0];
+
+                                if (!formKey) return;
+
+                                var newUrl = url.replace(formKey, MT.FORM_KEY || '');
+
+                                if (setLocation) setLocation(newUrl);
+                                else window.location.href = newUrl;
+                            }
+                        }
+                    </script>
+                    <script type="text/javascript">
+                        //<![CDATA[
+                        var Translator = new Translate([]);
+                        //]]>
+                        
+                    </script>
+                   
+    </head>
+    
+    <body class="cms-index-index cms-home">
+        <section class="mt-container">
+        <!-- navigation BOF -->
+        <!-- #BeginLibraryItem "/library/page_small_header.lbi" --><!-- #EndLibraryItem -->
+            <section class="mt-wrapper">
+            <!-- #BeginLibraryItem "/library/page_header_index.lbi" --><!-- #EndLibraryItem -->
+   
+                <div class="clearfix">
+                </div>
+                <section class="main-container  col1-layout">
+                    <div class="container show-grid-slide">
+                        <div id="myCarousel" class="carousel slide">
+                           <!-- 轮播（Carousel）指标 -->
+                           <ol class="carousel-indicators">
+                              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                              <li data-target="#myCarousel" data-slide-to="1"></li>
+                              <li data-target="#myCarousel" data-slide-to="2"></li>
+                           </ol>   
+                           <!-- 轮播（Carousel）项目 -->
+                           <div class="carousel-inner">
+                              <div class="item active">
+                                 <img src="images/banner.png" alt="First slide">
+                              </div>
+                              <div class="item">
+                                 <img src="images/banner.png" alt="Second slide">
+                              </div>
+                              <div class="item">
+                                 <img src="images/banner.png" alt="Third slide">
+                              </div>
+                           </div>
+                           <!-- 轮播（Carousel）导航 -->
+                           <a class="carousel-control left" href="#myCarousel" 
+                              data-slide="prev"><i class="fa fa-angle-left fa fa-4x"></i></a>
+                           <a class="carousel-control right" href="#myCarousel" 
+                              data-slide="next"><i class="fa fa-angle-right fa-4x"></i></a>
+                        </div> 
+                    </div>
+                    <!--<div class="mt-revolution-slider">
+                    <div class="mt-mvertical"></div>
+                    </div>-->
+                    <div class="main-breadcrumbs">
+                        <div class="container">
+                            <div class="main_content">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-top">
+                        <div class="container">
+                            <div class="main">
+                                <div class="row">
+                                    <div class="clearfix">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-main">
+                        <div class="main-content container">
+                            <div class="row">
+                                <div class="col-main">
+                                <!-- {if $new_goods}-->
+                                  <!-- {if $cat_rec_sign neq 1} -->
+                                    <div class="product-news" id="widget-1c360e5209e8ac2785484b0c261a4612">
+                                        <h2>
+                                            春季新品
+                                        </h2>
+                                        <ul class="products-grid ">
+                                          <!--{foreach from=$new_goods item=goods}-->
+                                              <li class="item">
+                                                  <div class="item-upsell">
+                                                      <a class="product-image" href="{$goods.url}" title=" 薇茜甜点">
+                                                          <span class="product-new-label">New</span>
+                                                          <img src="{$goods.thumb}" width="262" height="309" alt="{$goods.name|escape:html}" />
+                                                      </a>
+                                                      <h3 class="product-name">
+                                                          <a href="{$goods.url}" title="{$goods.name|escape:html}">{$goods.short_style_name}</a>
+                                                      </h3>
+                                                      <div class="hover">
+                                                          <div class="price-box">
+                                                              <span class="regular-price" id="product-price-13">
+                                                                  <span class="price">
+                                                                     <!-- {if $goods.promote_price neq ""} -->
+                                                                    {$goods.promote_price}
+                                                                    <!-- {else}-->
+                                                                    {$goods.shop_price}
+                                                                    <!--{/if}-->
+                                                                  </span>
+                                                              </span>
+                                                          </div>
+                                                      </div>
+                                                      <div class="confix-produclist">
+                                                          <div class="add-to-links">
+                                                              <div class="wishlist">
+                                                                  <a href="javascript:collect('{$goods.goods_id}');" data-id="13" title="收藏" data-placement="left" class="link-wishlist mt-tooltip">
+                                                                      <i class="fa fa fa-heart-o"></i>
+                                                                  </a>
+                                                              </div>
+                                                              <div class="compare">
+                                                                  <a href="{$goods.url}" data-id="13" title="详情" data-placement="left" class="link-compare  mt-tooltip">
+                                                                      <i class="fa fa-expand"></i>
+                                                                  </a>
+                                                              </div>
+                                                          </div>
+                                                      </div>
+                                                      <div class="mt-actions">
+                                                          <div class="addtocart">
+                                                            <a href="{$goods.url}">
+                                                              <button type="button" title="加入购物车" data-placement="left" class="button btn-cart mt-tooltip ">
+                                                                  <span>
+                                                                      <span><i class="fa mt-fa-shopping-cart"></i>加入购物车</span>
+                                                                  </span>
+                                                              </button>
+                                                            </a>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                              </li>
+                                          <!--{/foreach}-->
+                                        </ul>
+                                    </div>
+                                  <!-- {/if} -->
+                                <!-- {/if} -->
+                                <!-- {if $best_goods} -->
+                                    <div class="product-news" id="widget-1c360e5209e8ac2785484b0c261a4612">
+                                      <div class="border-b"><span></span></div>
+                                        <h2>
+                                            特色推荐
+                                        </h2>
+                                        <ul class="products-grid ">
+                                        <!--{foreach from=$best_goods item=goods name=nav_goods}-->
+                                            <!-- {if $goods.cat_id == 9} -->
+                                            <li class="item">
+                                                <div class="item-upsell home-fea-border">
+                                                    <a class="product-image home-fea-a" href="{$goods.url}" title="{$goods.name|escape:html}">
+                                                        <div class="product-image home-fea-title1">
+                                                            婚礼
+                                                        </div>
+                                                        <img class="home-fea-img" width="262" height="309" src="{$goods.thumb}" alt="{$goods.name|escape:html}" />
+                                                    </a>
+                                                    <h3 class="product-name home-fea-h3">
+                                                        <a class="home-fea-detail" href="{$goods.url}" title="{$goods.name|escape:html}">
+                                                            {$goods.brief}
+                                                        </a>
+                                                    </h3>
+                                                </div>
+                                            </li>
+                                            <!-- {/if} -->
+                                        <!--{/foreach}-->
+                                        <!--{foreach from=$best_goods item=goods name=nav_goods}-->
+                                            <!-- {if $goods.cat_id == 10} -->
+                                            <li class="item">
+                                                <div class="item-upsell home-fea-border">
+                                                    <a class="product-image home-fea-a" href="{$goods.url}" title="{$goods.name|escape:html}">
+                                                        <div class="product-image home-fea-title2">
+                                                            商务
+                                                        </div>
+                                                        <img class="home-fea-img" width="262" height="309" src="{$goods.thumb}" alt="{$goods.name|escape:html}" />
+                                                    </a>
+                                                    <h3 class="product-name home-fea-h3">
+                                                        <a class="home-fea-detail" href="{$goods.url}" title="{$goods.name|escape:html}">
+                                                           {$goods.brief}
+                                                        </a>
+                                                    </h3>
+                                                </div>
+                                            </li>
+                                            <!-- {/if} -->
+                                        <!--{/foreach}-->
+                                        <!--{foreach from=$best_goods item=goods name=nav_goods}-->
+                                            <!-- {if $goods.cat_id == 7} -->
+                                            <li class="item">
+                                                <div class="item-upsell home-fea-border">
+                                                    <a class="product-image home-fea-a" href="{$goods.url}" title="{$goods.name|escape:html}">
+                                                        <div class="product-image home-fea-title3">
+                                                            生日
+                                                        </div>
+                                                         <img class="home-fea-img" width="262" height="309" src="{$goods.thumb}" alt="{$goods.name|escape:html}" />
+                                                    </a>
+                                                    <h3 class="product-name home-fea-h3">
+                                                        <a class="home-fea-detail" href="{$goods.url}" title="{$goods.name|escape:html}">
+                                                           {$goods.brief}
+                                                        </a>
+                                                    </h3>
+                                                </div>
+                                            </li>
+                                            <!-- {/if} -->
+                                        <!--{/foreach}-->
+                                        <!--{foreach from=$best_goods item=goods name=nav_goods}-->
+                                            <!-- {if $goods.cat_id == 11} -->
+                                            <li class="item">
+                                                <div class="item-upsell home-fea-border">
+                                                    <a class="product-image home-fea-a" href="{$goods.url}" title="{$goods.name|escape:html}">
+                                                        <div class="product-image home-fea-title4">
+                                                            回礼
+                                                        </div>
+                                                         <img class="home-fea-img" width="262" height="309" src="{$goods.thumb}" alt="{$goods.name|escape:html}" />
+                                                    </a>
+                                                    <h3 class="product-name home-fea-h3">
+                                                        <a class="home-fea-detail" href="{$goods.url}" title="{$goods.name|escape:html}">
+                                                           {$goods.brief}
+                                                        </a>
+                                                    </h3>
+                                                  
+                                             
+                                                </div>
+                                            </li>
+                                            <!-- {/if} -->
+                                        <!--{/foreach}-->
+                                        </ul>
+                                    </div>
+                                <!-- {/if} -->
+                                    <script type="text/javascript" src="js/frontend.js">
+                                    </script>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="parallax">
+                        <div class="main">
+                            <div class="row">
+                                <div class="mt-parallax">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-bottom">
+                        <div class="container">
+                            <div class="row">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            <!-- #BeginLibraryItem "/library/page_footer.lbi" --><!-- #EndLibraryItem -->
+                <script type="text/javascript">
+                    (function($) {
+                        $('.block-wishlist #wishlist-sidebar a').live('click',
+                        function() {
+                            if (confirm($(this).attr('data-confirm'))) {
+                                removetowishlist($(this));
+                            }
+                            return false;
+                        });
+                        $('.block-wishlist-header #wishlist-header a.btn-remove').live('click',
+                        function() {
+                            if (confirm($(this).attr('data-confirm'))) {
+                                removetowishlist($(this));
+                            }
+                            return false;
+                        });
+                        $('.add-to-links a.link-wishlist').live('click',
+                        function() {
+                            addtowishlist($(this));
+                            return false;
+                        });
+                        if ($('.product-view').length > 0) {
+                            productAddToCartForm.submitLight = function(button, url) {
+                                return false;
+                            }.bind(productAddToCartForm);
+                        }
+                        $('.add-to-links a.link-compare').live('click',
+                        function() {
+                            addtocompare($(this));
+                            return false;
+                        });
+                        $('.block-compare #compare-items a, .block-top-compare a.btn-remove').live('click',
+                        function() {
+                            if (confirm($(this).attr('data-confirm'))) {
+                                removecompare($(this));
+                            }
+                            return false;
+                        });
+                        $('.block-compare .clearall a, .block-compare .actions a, .block-top-compare .clearall a').live('click',
+                        function() {
+                            if (confirm($(this).attr('data-confirm'))) {
+                                clearallcompare($(this));
+                            }
+                            return false;
+                        });
+                    })($mt);
+                </script>
+
+            </section>
+        </section>
+    </body>
+    
+    </html>

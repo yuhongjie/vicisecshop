@@ -1,0 +1,15 @@
+button.button, a.btn-readmore, .mt-ajax-checkout a {
+background-color:#E17698;
+}
+
+button.button:hover, .category-products .products-grid button.button.btn-cart:hover, a.btn-readmore:hover, .mt-ajax-checkout a:hover, .widget-static-block .custom .btn-purchase:hover {
+    background-color: #72CAC1;
+}
+
+.mt-ajax-container .access a span.icon, .mt-ajax-container .product-details .btn-remove span.icon, table td a.btn-remove, table th a.btn-remove, .block-compare .btn-remove, span.icon, .product-prev-next ul li a, .block-compare .btn-remove, .mtajaxcompare a.btn-remove, .block-layered-nav .currently .btn-remove, .owl-carousel .owl-controls .owl-buttons div, .product-view .product-shop .add-to-cart .items {
+background-color: #f1f1f1;
+}
+
+table td a.btn-remove:hover, table th a.btn-remove:hover, a.btn-remove:hover span, .block-compare li:hover a.btn-remove, .product-prev-next ul li a:hover, .block-compare .btn-remove:hover, .mtajaxcompare a.btn-remove:hover, .block-layered-nav .currently .btn-remove:hover, .owl-carousel .owl-controls .owl-buttons div:hover, .product-shop .add-to-cart .custom-qty .items:hover, .product-view .product-shop .add-to-cart .items:hover {
+background-color: #E17698;
+}

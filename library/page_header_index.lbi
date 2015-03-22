@@ -1,0 +1,273 @@
+                <header class="header-container header-bg-img">
+                    <div class="header home-header">
+                            <div class="container">
+                                <div class="header-act row">
+                                    <div class="navbar col-lg-12 visible-xs">
+                                        <div class="navbar navbar-inverse">
+                                            <div class="container-ner">
+                                                <div class="navbar-header">
+                                                    <div class="navbar-toggle" data-toggle="collapse">
+                                                        <div class="collapsed-icon">
+                                                            <!--<span class="sr-only"></span>-->
+                                                            <span class="icon-bar">
+                                                            </span>
+                                                            <span class="icon-bar">
+                                                            </span>
+                                                            <span class="icon-bar">
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="header-content-left col-lg-2 col-md-2 col-sm-2 col-xs-12 v-grid">
+                                        <div class="logo">
+                                            <a href="./" title="mt_bakery">
+                                                <img class="img-responsive" src="images/logo.png"
+                                                alt="mt_bakery" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="header-content-right col-lg-10 col-md-10 col-sm-10 col-xs-12">
+                                        <div class="header-content-sticky">
+                                            <div class="menu-full" id="mt-sticky-header">
+                                                <div class="header-menu">
+                                                    <div class="nav-top v-grid">
+                                                        <div class="clearer container">
+                                                            <!-- navigation BOF -->
+                                                            <div class="mt-navigation hidden-xs">
+                                                                <div class="logo-sticky col-lg-3 col-md-3 col-sm-3" style="display: none;">
+                                                                    <a href="#">
+                                                                        <img class="img-sticky img-responsive" src="images/logo.png"
+                                                                        alt="mt_bakery" />
+                                                                    </a>
+                                                                </div>
+                                                                <div class="mt-main-menu" style="  background: rgba(255,255,255,0.3);">
+                                                                    <ul id="mtnav" class="megamenu">
+                                                                    <!-- {foreach name=nav_middle_list from=$navigator_list.middle item=nav} -->
+                                                                        <!-- {if $smarty.foreach.nav_middle_list.index == 0}-->
+                                                                        <li class="level0 nav-1 level-top first parent parent-sub">
+                                                                            <i class="fa fa-angle-down"></i>
+                                                                            <a href="{$nav.url}" class="level-top"><span>{$nav.name}</span></a>
+                                                                            <div class="level0 sub-wrapper shown-sub" style="display:none; height:auto;">
+                                                                                <div class="mm-item-base clearfix">
+                                                                                    <div class="mtmenu-block mtmenu-block-top grid-full std">
+                                                                                        <p class="text-top">
+                                                                                            我们的目标是,让所有孩子的庆祝活动——一个真正的神奇和令人难忘的事情。你是否想要一个简单的蛋糕与平面设计,漫画蛋糕,一个雕像...
+                                                                                        </p>
+                                                                                    </div>
+                                                                                    <div class="mtmenu-block mtmenu-block-center menu-items grid12-7 itemgrid itemgrid-2col">
+                                                                                        <ul class="level0">
+                                                                                            <li class="level1 groups item nav-1-1 first">
+                                                                                                <a href="category.php?id=14">
+                                                                                                    <span class="title_group">
+                                                                                                      盒装系列
+                                                                                                    </span>
+                                                                                                </a>
+                                                                                            </li>
+                                                                                            <li class="level1 groups item nav-1-2 last">
+                                                                                                <a href="category.php?id=15">
+                                                                                                    <span class="title_group">
+                                                                                                        花束系列
+                                                                                                    </span>
+                                                                                                </a>
+                                                                                            </li>
+                                                                                            <li class="level1 groups item nav-1-2 last">
+                                                                                                <a href="category.php?id=16">
+                                                                                                    <span class="title_group">
+                                                                                                        童趣系列
+                                                                                                    </span>
+                                                                                                </a>
+                                                                                            </li>
+                                                                                            <li class="level1 groups item nav-1-2 last">
+                                                                                                <a href="category.php?id=17">
+                                                                                                    <span class="title_group">
+                                                                                                        特惠系列
+                                                                                                    </span>
+                                                                                                </a>
+                                                                                            </li>
+                                                                                        </ul>
+                                                                                    </div>
+                                                                                    <div class="menu-static-blocks mtmenu-block mtmenu-block-right grid12-5">
+                                                                                        <div class="block-img">
+                                                                                            <a href="#">
+                                                                                                <img src="images/1.jpg"
+                                                                                                />
+                                                                                            </a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </li>
+                                                                        <!-- {/if}-->
+                                                                        <!-- {if $smarty.foreach.nav_middle_list.index == 1}-->
+                                                                        <li class="level0 nav-1 level-top first parent parent-sub">
+                                                                            <i class="fa fa-angle-down"></i>
+                                                                            <a href="{$nav.url}" class="level-top"><span>{$nav.name}</span></a>
+                                                                            <div class="level0 sub-wrapper shown-sub" style="display:none; height:auto;">
+                                                                                <div class="mm-item-base clearfix">
+                                                                                    <div class="mtmenu-block mtmenu-block-top grid-full std">
+                                                                                        <p class="text-top">
+                                                                                            我们的目标是,让所有孩子的庆祝活动——一个真正的神奇和令人难忘的事情。你是否想要一个简单的蛋糕与平面设计,漫画蛋糕,一个雕像,或三维雕刻蛋糕;我们听你想要的,我们会把每一个努力让你的孩子的蛋糕,他们每天生活的重要部分!我们可爱的小雕像是由完全从糖酱和食用。他们精心的手模仿详细匹配一个最喜欢的玩具或字符。他们也永远持续下去,以防你想拯救他们作为纪念品的孩子的特别的一天。
+                                                                                        </p>
+                                                                                    </div>
+                                                                                    <div class="mtmenu-block mtmenu-block-center menu-items grid12-7 itemgrid itemgrid-2col">
+                                                                                        <ul class="level0">
+                                                                                            <li class="level1 groups item nav-1-1 first">
+                                                                                                <a href="category.php?id=7">
+                                                                                                    <span class="title_group">
+                                                                                                       生日
+                                                                                                    </span>
+                                                                                                </a>
+                                                                                            </li>
+                                                                                            <li class="level1 groups item nav-1-2 last">
+                                                                                                <a href="category.php?id=8">
+                                                                                                    <span class="title_group">
+                                                                                                       礼物
+                                                                                                    </span>
+                                                                                                </a>
+                                                                                            </li>
+                                                                                            <li class="level1 groups item nav-1-2 last">
+                                                                                                <a href="category.php?id=9">
+                                                                                                    <span class="title_group">
+                                                                                                        婚礼
+                                                                                                    </span>
+                                                                                                </a>
+                                                                                            </li>
+                                                                                            <li class="level1 groups item nav-1-2 last">
+                                                                                                <a href="category.php?id=10">
+                                                                                                    <span class="title_group">
+                                                                                                       商务
+                                                                                                    </span>
+                                                                                                </a>
+                                                                                            </li>
+                                                                                              <li class="level1 groups item nav-1-2 last">
+                                                                                                <a href="category.php?id=11">
+                                                                                                    <span class="title_group">
+                                                                                                       回礼
+                                                                                                    </span>
+                                                                                                </a>
+                                                                                            </li>
+                                                                                        </ul>
+                                                                                    </div>
+                                                                                    <div class="menu-static-blocks mtmenu-block mtmenu-block-right grid12-5">
+                                                                                        <div class="block-img">
+                                                                                            <a href="#">
+                                                                                                <img src="images/1.jpg"
+                                                                                                />
+                                                                                            </a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </li>
+                                                                        <!-- {/if}-->
+                                                                        <!-- {if $smarty.foreach.nav_middle_list.index == 2}-->
+                                                                        <li class="level0 nav-2 level-top">
+                                                                            <a href="article.php?id=8" class="level-top"><span>{$nav.name}</span></a>
+                                                                        </li>
+                                                                        <!-- {/if}-->
+                                                                        <!-- {if $smarty.foreach.nav_middle_list.index == 3}-->
+                                                                        <li class="level0 nav-3 level-top">
+                                                                            <a href="article.php?id=7" class="level-top"><span>{$nav.name}</span></a>
+                                                                        </li>
+                                                                        <!-- {/if}-->
+                                                                        <!-- {if $smarty.foreach.nav_middle_list.index == 4}-->
+                                                                        <li class="level0 level-top parent custom-block  menu-item-right">
+                                                                            <a href="article.php?id=9" class="level-top"><span>{$nav.name}</span></a>
+                                                                        </li>
+                                                                        <!-- {/if}-->
+                                                                    <!-- {/foreach} --> 
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                                <script type="text/javascript">
+                                                                    $mt(function() {
+                                                                        $mt(".megamenu").megamenu({
+                                                                            'animation': 'slide',
+                                                                            'mm_timeout': 150
+                                                                        });
+                                                                    });
+                                                                </script>
+                                                            <!-- navigation EOF -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="header-right-inner clearfix home-header-right">
+                                            {insert name='member_info'}
+
+                                                <!-- 微信微博搜索-->
+                                                <div  class="side-bar home-header-right-icon">
+                                                   <a style="position: absolute;right: 56px;top: 0;" href="" class="home-header-ico icon-chat">
+                                                       <i class="fa fa-weixin fa-lg"></i>
+                                                       <div class="chat-tips"><i></i><img style="width:138px;height:138px;" src="images/3.jpg" ></div>
+                                                   </a>
+                                                    <a href="" style="position: absolute;right: 18px;top: 0;" class="home-header-ico">
+                                                        <i class="fa fa-weibo fa-lg"></i>
+                                                    </a>
+   <script type="text/javascript">
+    {literal}
+    <!--
+    function checkSearchForm()
+    {
+        if(document.getElementById('keyword').value)
+        {
+            return true;
+        }
+        else
+        {
+            alert("{$lang.no_keywords}");
+            return false;
+        }
+    }
+    -->
+    {/literal}
+    </script>
+                                                    <div class="top-seach pull-right" style="position: absolute;right: 0;top: 3px;">
+                                                       <div class="quick-access">
+                                                         <form id="searchForm" name="searchForm" method="get" action="search.php" onSubmit="return checkSearchForm()" class="f_r"  style="_position:relative; top:5px;">
+                                                           <div class="search-style">
+                                                             <div style="color:#999;line-height:0;" class="mt-icon-ajax" style="line-height: 26px;">
+                                                               <i class="fa fa-search" >
+                                                               </i>
+                                                             </div>
+                                                           </div>
+                                                           <div class="form-search" style="display: none;">
+                                                             <!--<label for="search"></label>-->
+                                                             <input id="search" type="text" name="keywords" value="" class="input-text" maxlength="128" autocomplete="off">
+                                                             <button type="submit" title="搜索" class="button">
+                                                               <span>
+                                                                 <span>
+                                                                   <span class="fs1" data-icon="U" aria-hidden="true">
+                                                                   </span>
+                                                                   &nbsp;
+                                                                 </span>
+                                                               </span>
+                                                             </button>
+                                                             <div id="search_autocomplete" class="search-autocomplete" style="display: none;">
+                                                             </div>
+                                                            
+                                                           </div>
+                                                         </form>
+                                                       </div>
+                                                     </div>
+                                                </div>
+                                                <div>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+<script type="text/javascript">
+$(function() {
+window.__Object_toJSONString = Object.prototype.toJSONString;
+delete Object.prototype.toJSONString;
+});
+</script>
+                </header>

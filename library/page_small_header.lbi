@@ -1,0 +1,150 @@
+
+        <div class="mt-menu mt-effect-slide">
+            <div class="mt-menu-active">
+                <div class="navbar-header">
+                    <div class="navbar-toggle" data-toggle="collapse">
+                        <div class="collapsed-icon pull-left">
+                            <span class="sr-only">
+                               导航
+                            </span>
+                            <span class="icon-bar">
+                            </span>
+                            <span class="icon-bar">
+                            </span>
+                            <span class="icon-bar">
+                            </span>
+                        </div>
+                        <span class="title-canvas">
+                            菜单
+                        </span>
+                        <button type="button" class="mt-close-canvas">
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- 小屏幕 -->
+            <div class="sidebar">
+                <ul id="mt_accordionmenu" class="nav-accordion nav-mobile-accordion">
+                    <li class="level0 nav-1 level-top first parent">
+                        <i class="fa fa-angle-down">
+                        </i>
+                        <a href="category.php?id=13" class="level-top">
+                            <span>
+                                系列
+                            </span>
+                        </a>
+                        <ul class="level0">
+                            <li class="level1 item nav-1-1 first parent">
+                                <a href="category.php?id=14">
+                                    <span>
+                                        盒装系列
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="level1 item nav-1-2 last parent">
+                                <a href="category.php?id=15">
+                                    <span>
+                                        花束系列
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="level1 item nav-1-2 last parent">
+                                <a href="category.php?id=16">
+                                    <span>
+                                        童趣系列
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="level1 item nav-1-2 last parent">
+                                <a href="category.php?id=17">
+                                    <span>
+                                        特惠系列
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="level0 nav-1 level-top first parent">
+                        <i class="fa fa-angle-down">
+                        </i>
+                        <a href="category.php?id=2" class="level-top">
+                            <span>
+                                用途
+                            </span>
+                        </a>
+                        <ul class="level0">
+                            <li class="level1 item nav-1-1 first parent">
+                                <a href="category.php?id=7">
+                                    <span>
+                                       生日
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="level1 item nav-1-2 last parent">
+                                <a href="category.php?id=8">
+                                    <span>
+                                        礼物
+                                    </span>
+                                </a>
+                            </li>
+                             <li class="level1 item nav-1-2 last parent">
+                                <a href="category.php?id=9">
+                                    <span>
+                                        婚礼
+                                    </span>
+                                </a>
+                            </li>
+                             <li class="level1 item nav-1-2 last parent">
+                                <a href="category.php?id=10">
+                                    <span>
+                                        商务
+                                    </span>
+                                </a>
+                            </li>
+                             <li class="level1 item nav-1-2 last parent">
+                                <a href="category.php?id=11">
+                                    <span>
+                                        回礼
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="level0 nav-2 level-top">
+                        <a href="article.php?id=8" class="level-top">
+                            <span>
+                               食材
+                            </span>
+                        </a>
+                    </li>
+                    <li class="level0 nav-3 level-top">
+                        <a href="article.php?id=7" class="level-top">
+                            <span>
+                                FAQ
+                            </span>
+                        </a>
+                    </li>
+                    <li class="level0 nav-4 level-top last">
+                        <a href="article.php?id=9" class="level-top">
+                            <span>
+                                配送说明
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+                <script type="text/javascript">
+                    $mt(document).ready(function() {
+                        $mt("#mt_accordionmenu").mtAccordionMenu({
+                            accordion: true,
+                            speed: 400,
+                            closedSign: 'collapse',
+                            openedSign: 'expand',
+                            mouseType: 0,
+                            easing: 'easeInOutQuad'
+                        });
+                    });
+                </script>
+            </div>
+        </div>
+        <div class="site-overlay">
+        </div>

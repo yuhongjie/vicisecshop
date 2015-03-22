@@ -1,0 +1,93 @@
+.product-view .product-shop .product-name h1 {
+	font-size: 32px;
+	margin: 0;
+	padding: 0 0 10px 0;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #2f383d;
+	font-family: "youyuan";
+}
+.price-box {
+	padding: 0!important;
+}
+.quantity-input p {
+	font-size: 21px!important;
+	font-family: 微软雅黑!important;
+	color: #666666;
+}
+.quantity-input select {
+	width: 388px;
+	height: 46px;
+	margin-bottom: 42px;
+	padding-left: 10px;
+	font-size: 20px;
+	color: #999999;
+	font-family: 微软雅黑;
+}
+.quantity-input select:hover {
+	color: black;
+}
+.product-view .product-shop .add-to-box .addto-bottom button.btn-cart {
+	background: none repeat scroll 0 0 #E17698;
+	font-family: 微软雅黑;
+}
+.product-view .product-shop .product-add-to-links ul.add-to-links li a, .product-view .product-shop .product-options-bottom ul.add-to-links li a {
+	background: none repeat scroll 0 0 #E17698;
+	border-radius: 100%;
+    display: inline-block;
+    font-size: 50px;
+    height: 60px;
+    text-align: center;
+    width: 60px;
+}
+.detail-tab-title a {
+	font-family: 微软雅黑;
+	font-size: 16px!important;
+}
+
+.product-tabs li.active a:before, .product-tabs li.active:hover a:before, .product-tabs li a:hover:before {
+	border-top: 4px solid #6FC6BC;
+	content: "";
+	left: 0;
+	position: absolute;
+	top: -4px;
+	width: 100%;
+}
+.product-tabs-content-inner {
+	font-size: 14px;
+	color: #98a5ae;
+	font-family: "youyuan";
+}
+.product-relative h2 {
+	display: block;
+	padding-left: 15px;
+	text-align: left!important;
+	font-family: "youyuan";
+	text-align: center;
+	font-size: 38px;
+	letter-spacing: 2px;
+	color: #968d8d;
+	margin-top: 60px!important;
+	margin-bottom: 35px!important;
+}
+.product-relative h2:before {
+	background: none repeat scroll 0 0 transparent!important ;
+	bottom: -16px;
+	content: "";
+	height: 1px;
+	left: 36%;
+	position: absolute;
+	width: 30px;
+}
+
+.product-view .product-img-box .product-image {
+	/*height: 660px;*/
+}
+/*sprite*/
+/*价格*/
+.pro-detail-price{
+	margin-top: 18px !important;
+}
+.pro-detail-kw{
+	margin-top: 22px !important;
+}

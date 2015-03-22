@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="Keywords" content="{$keywords}" />
+    <meta name="Description" content="{$description}" />
+    <!-- TemplateBeginEditable name="doctitle" -->
+    <title>{$page_title}</title>
+    <!-- TemplateEndEditable -->
+    <!-- TemplateBeginEditable name="head" -->
+    <!-- TemplateEndEditable -->
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="icon" href="animated_favicon.gif" type="image/gif" />
+    <link rel="alternate" type="application/rss+xml" title="RSS|{$page_title}" href="{$feed_url}" />
+    <!--[if IE 8 ]>
+      <html class="ie8" <![endif]-->
+        <!--[if IE 9 ]>
+          <html class="ie9">
+          <![endif]-->
+          <!--[if lt IE 7]>
+            <script type="text/javascript">
+              //<![CDATA[
+              var BLANK_URL = '#';
+              var BLANK_IMG = 'images/spacer.gif';
+              //]]>
+              
+            </script>
+          <![endif]-->
+          <link rel="stylesheet" type="text/css" href="themes/vicis/css/home.css"/>
+          <link rel="stylesheet" type="text/css" href="themes/vicis/css/owl.carousel.css" />
+          <link rel="stylesheet" type="text/css" href="themes/vicis/css/owl.theme.css" />
+          <link rel="stylesheet" type="text/css" href="themes/vicis/css/owl.transitions.css"/>
+          <link rel="stylesheet" type="text/css" href="themes/vicis/css/effects.css" />
+          <link rel="stylesheet" type="text/css" href="themes/vicis/css/styles.css" media="all"/>
+          <link rel="stylesheet" type="text/css" href="themes/vicis/css/widgets.css" media="all"/>
+          <link rel="stylesheet" type="text/css" href="themes/vicis/css/newsletter.css" media="all"/>
+          <link rel="stylesheet" type="text/css" href="themes/vicis/css/ajaxcart.css" media="all"/>
+          <link rel="stylesheet" type="text/css" href="themes/vicis/css/bootstrap.min.css" media="all"/>
+          <link rel="stylesheet" type="text/css" href="themes/vicis/css/font-awesome.min.css" media="all" />
+          <link rel="stylesheet" type="text/css" href="themes/vicis/css/elegantfont.css" media="all"/>
+          <link rel="stylesheet" type="text/css" href="themes/vicis/css/megamenu.css" media="all"/>
+          <link rel="stylesheet" type="text/css" href="themes/vicis/css/accordion.css" media="all"/>
+          <link rel="stylesheet" type="text/css" href="themes/vicis/css/animate.css" media="all"/>
+          <link rel="stylesheet" type="text/css" href="themes/vicis/css/responsive.css" media="all"/>
+          <link rel="stylesheet" type="text/css" href="themes/vicis/css/rtl.css" media="all"/>
+          <link rel="stylesheet" type="text/css" href="themes/vicis/css/colorbox.css" media="all"/>
+          <link rel="stylesheet" type="text/css" href="themes/vicis/css/design_default.css" media="all"/>
+          <link rel="stylesheet" type="text/css" href="themes/vicis/css/layout_default.css" media="all"/>
+          <link rel="stylesheet" type="text/css" href="themes/vicis/css/print.css" media="print"/>
+          <script type="text/javascript" src="js/prototype.js"></script>
+          <script type="text/javascript" src="js/ccard.js"></script>
+          <script type="text/javascript" src="js/validation.js"></script>
+          <script type="text/javascript" src="js/builder.js"></script>
+          <script type="text/javascript" src="js/effects.js"></script>
+          <script type="text/javascript" src="js/dragdrop.js"></script>
+          <script type="text/javascript" src="js/controls.js"></script>
+          <script type="text/javascript" src="js/slider.js"></script>
+          <script type="text/javascript" src="js/js.js"></script>
+          <script type="text/javascript" src="js/form.js"></script>
+          <script type="text/javascript" src="js/menu.js"></script>
+          <script type="text/javascript" src="js/translate.js"></script>
+          <script type="text/javascript" src="js/cookies.js"></script>
+          <script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+          <script type="text/javascript" src="js/wow.min.js"></script>
+          <script type="text/javascript" src="js/bootstrap.min.js"></script>
+          <script type="text/javascript" src="js/bootstrap-tooltip.js"></script>
+          <script type="text/javascript" src="js/collapse.js"></script>
+          <script type="text/javascript" src="js/jquery.lib.min.js"></script>
+          <script type="text/javascript" src="js/jquery.ajaxcart.min.js"></script>
+          <script type="text/javascript" src="js/jquery.cookie.js"></script>
+          <script type="text/javascript" src="js/weee.js"></script>
+          {insert_scripts files='common.js'}
+          <!--[if lt IE 8]>
+            <link rel="stylesheet" type="text/css" href="css/styles-ie.css"
+            media="all" />
+          <![endif]-->
+          <!--[if lt IE 7]>
+            <script type="text/javascript" src="js/ds-sleight.js">
+            </script>
+            <script type="text/javascript" src="js/lte-ie7.js">
+            </script>
+            <script type="text/javascript" src="js/ie6.js">
+            </script>
+          <![endif]-->
+          <!--[if lt IE 9]>
+            <script type="text/javascript" src="js/html5shiv.js">
+            </script>
+            <script type="text/javascript" src="js/respond.min.js">
+            </script>
+          <![endif]-->
+          <!--[if IE]>
+            <link rel="stylesheet" type="text/css" href="css/fonts-iex.css"
+            media="all" />
+          <![endif]-->
+          <script type="text/javascript">
+            var magenThemes = {};
+            magenThemes.responsive = true;
+            magenThemes.maxBreak = 1170;
+            magenThemes.url = '#';
+          </script>
+          <script type="text/javascript">
+            //<![CDATA[
+            Mage.Cookies.path = '/';
+            Mage.Cookies.domain = '.mt-bebakery.magentheme.com';
+            //]]>
+            
+          </script>
+          <script type="text/javascript">
+            //<![CDATA[
+            optionalZipCountries = ["HK", "IE", "MO", "PA"];
+            //]]>
+            
+          </script>
+          <script type="text/javascript">
+            var MT = MT || {};
+            MT.FORM_KEY = '8a2Cziyu6JzZquBf';
+
+            function setLocationWidget(url) {
+              if (url.indexOf('form_key/') !== -1) {
+                var part = url.split('form_key/')[1],
+                formKey = part.split('/')[0];
+
+                if (!formKey) return;
+
+                var newUrl = url.replace(formKey, MT.FORM_KEY || '');
+
+                if (setLocation) setLocation(newUrl);
+                else window.location.href = newUrl;
+              }
+            }
+          </script>
+          <script type="text/javascript">
+            //<![CDATA[
+            var Translator = new Translate([]);
+            //]]>
+            
+          </script>
+  </head>
+<body>
+<section class="mt-container">
+        <!-- navigation BOF -->
+        <!-- #BeginLibraryItem "/library/page_small_header.lbi" --><!-- #EndLibraryItem -->
+      <section class="mt-wrapper">
+         <!-- #BeginLibraryItem "/library/page_header.lbi" --><!-- #EndLibraryItem -->
+        <section class="main-container col2-left-layout">
+          <div class="show-grid-slide show-slide-all">
+            <div class="container">
+              <div class="row show-grid">
+                <div class="mt-revolution-slider col-lg-9 col-md-9 col-sm-9 col-xs-12">
+                  <div class="mt-preface">
+                  </div>
+                </div>
+                <div class="main_slide_right col-lg-3 col-md-3 col-sm-3">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="">
+            <div class="container">
+              <div class="main_content">
+                <div class="row show-grid">
+                  <div class="col-lg-12">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="main-top">
+            <div class="container">
+              <div class="main">
+                <div class="row show-grid">
+                  <div class="col-lg-12">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          
+
+<div id="ECS_CATALOG" class="catalog-div" style="display:none"
+onmouseover="if (this.style.display != 'block') this.style.display='block';"
+onmouseout="if (this.style.display != 'none') this.style.display = 'none';">
+  <ul>
+    <!--{assign var="level" value=0}-->
+    <!-- {foreach from=$catalog_list item=cat} -->
+    <!-- {if $level > $cat.level} -->
+  </ul>
+  <!-- {/if}-->
+  <!-- {if $level < $cat.level} -->
+  <ul>
+    <!-- {/if} -->
+    <li class="{if $cat.level eq 0}top-cate{else}snd-cate{/if}"><a href="{$cat.url}" title="{if $cat.cat_desc neq ''}{$cat.cat_desc}{/if}">{$cat.cat_name}</a></li>
+    <!--{assign var="level" value=$cat.level}-->
+    <!-- {/foreach} -->
+  </ul>
+</div>
+<!-- #EndLibraryItem --><div id="search-bar">
+      <div id="search-left"><!-- TemplateBeginEditable name="导航栏下方左侧" --><!-- #BeginLibraryItem "/library/ur_here.lbi" -->
+        <div style="padding:3px 15px 0px 15px;">{$lang.ur_here} {$ur_here}</div>
+        <!-- #EndLibraryItem --><!-- TemplateEndEditable --></div>
+      <div id="search-right"><!-- TemplateBeginEditable name="导航栏下方右侧" --><!-- #BeginLibraryItem "/library/search_form.lbi" -->
+<div style="padding:0px 15px;">
+  <form id="searchForm" name="searchForm" method="get" action="library/search.php">
+    <img src="images/icon_search.gif" alt="search" />
+    <select name="category" id="category" style="vertical-align:middle;">
+      <option value="0">{$lang.all_category}</option>
+      {$category_list}
+    </select>
+    <input name="keywords" class="textbox" type="text" id="keyword" value="{$search_keywords|escape}" />
+    <input type="image" name="imageField" src="images/btn_go.gif" />
+    <a href="library/search.php?act=advanced_search">{$lang.advanced_search}</a>
+  </form>
+</div>
+<!-- #EndLibraryItem --><!-- TemplateEndEditable --></div>
+    </div>
+    <!-- End #search-bar -->
+    <div id="container2" style="padding: 20px 20px 20px 180px; border-top: 1px solid #CCC;">
+      <p style="font-size: 14px; font-weight:bold; color: red; width:500px">{$message.content}</p>
+      <p><a href="{$message.href}">&gt;&gt; {$message.link}</a></p>
+    </div>
+    <!-- End #container2 --><!-- #BeginLibraryItem "/library/help.lbi" -->
+<!--{if $helps}-->
+<table width="801" border="0" align="center" cellpadding="0" cellspacing="1" bgcolor="#DADADA" class="clear" style="margin:10px auto 5px auto;">
+  <tr>
+    <!-- {foreach from=$helps item=help_cat} -->
+    <td class="help-cat"><img src="images/grey_arrow.gif" alt="" width="37" height="37" />{$help_cat.cat_name}</td>
+    <!-- {/foreach} -->
+  </tr>
+  <tr>
+    <!-- {foreach from=$helps item=help_cat} -->
+    <td bgcolor="#FFFFFF" valign="top"><ul>
+        <!-- {foreach from=$help_cat.article item=item} -->
+        <li><a href="{$item.url}" title="{$item.title|escape:html}">{$item.short_title}</a></li>
+        <!-- {/foreach} -->
+      </ul></td>
+    <!-- {/foreach} -->
+  </tr>
+</table>
+<!--{/if}-->
+<!-- #EndLibraryItem --><!-- #BeginLibraryItem "/library/page_footer.lbi" -->
+<table width="801" border="0" align="center" cellpadding="5" cellspacing="0" style="margin:10px 0 20px 0;" id="footer-table">
+  <tr>
+    <td><img src="images/ecshop.gif" alt="ECSHOP" width="133" height="46" hspace="10" /></td>
+    <td width="6" id="foot-logo"><img src="images/footer_bg.gif" width="6" height="80" alt="" /></td>
+    <td> {$copyright}<br />
+      {$shop_address} {$shop_postcode} <br />
+      <!-- 客服电话{if $service_phone} -->
+      Tel: {$service_phone}
+      <!-- 结束客服电话{/if} -->
+      <!-- QQ 号码 {foreach from=$qq item=im} -->
+      <!-- {if $im} -->
+      <a href="http://wpa.qq.com/msgrd?V=1&amp;Uin={$im}&amp;Site={$shop_name}&amp;Menu=yes" target="_blank"><img src="http://wpa.qq.com/pa?p=1:{$im}:4" height="16" border="0" alt="QQ" /> {$im}</a>
+      <!-- {/if} -->
+      <!-- {/foreach} 结束QQ号码 -->
+      <!-- 淘宝旺旺 {foreach from=$ww item=im} -->
+      <!-- {if $im} -->
+      <a href="http://amos1.taobao.com/msg.ww?v=2&amp;uid={$im|escape:url}&amp;s=2" target="_blank"><img src="http://amos1.taobao.com/online.ww?v=2&amp;uid={$im|escape:url}&amp;s=2" width="16" height="16" border="0" alt="淘宝旺旺" /> {$im}</a>
+      <!-- {/if} -->
+      <!--{/foreach} 结束淘宝旺旺 -->
+      <!-- Yahoo Messenger {foreach from=$ym item=im} -->
+      <!-- {if $im} -->
+      <a href="http://edit.yahoo.com/config/send_webmesg?.target={$im}n&amp;.src=pg" target="_blank"><img src="images/yahoo.gif" width="18" height="17" border="0" alt="Yahoo Messenger" /> {$im}</a>
+      <!-- {/if} -->
+      <!-- {/foreach} 结束Yahoo Messenger -->
+      <!-- MSN Messenger {foreach from=$msn item=im} -->
+      <!-- {if $im} -->
+      <img src="images/msn.gif" width="18" height="17" border="0" alt="MSN" /> {$im}
+      <!-- {/if} -->
+      <!-- {/foreach} 结束MSN Messenger -->
+      <!-- Skype {foreach from=$skype item=im} -->
+      <!-- {if $im} -->
+      <img src="http://mystatus.skype.com/smallclassic/{$im|escape:url}" alt="Skype" /><a href="skype:{$im|escape:url}?call">{$im}</a>
+      <!-- {/if} -->
+      <!-- {/foreach} -->
+      <div>
+        <!-- 开始相关声明{foreach from=$declaration item=article} -->
+        <a href="{$article.url}" target="_blank">{$article.title}</a>
+        <!-- 相关声明{/foreach}-->
+      </div>
+      <!-- ICP 证书{if $icp_number} -->
+      <div> {$lang.icp_number}:<a href="http://www.miibeian.gov.cn/" target="_blank">{$icp_number}</a> </div>
+      <!-- 结束ICP 证书{/if} -->
+      {insert name='query_info'}<br />
+      <a href="http://www.ecshop.com" target="_blank" style="font-size:10px">Powered by <strong><span style="color: #3366FF">ECSHOP</span> <span style="color: #FF9966">{$ecs_version}</span></strong></a><br />
+    </td>
+  </tr>
+</table>
+{if $stats_code}
+<div align="center">{$stats_code}</div>
+{/if}
+
+<script type="text/javascript">
+var process_request = "{$lang.process_request}";
+</script>
+<!-- #EndLibraryItem --></div>
+  <!-- End #Wrapper -->
+  <div style="float:left;"><img src="images/page_right.gif" alt="" /></div>
+</div>
+<!-- End #globalWrapper -->
+
+          <!-- #BeginLibraryItem "/library/page_footer.lbi" --><!-- #EndLibraryItem -->
+        <script type="text/javascript">
+          function setGridItem($) {
+            var winWidth = $(window).width();
+            var col = 3;
+            if (winWidth > 768) {
+              newcol = col;
+            }
+            if (winWidth < 768 && winWidth >= 640) {
+              newcol = 3;
+            }
+            if (winWidth >= 480 && winWidth < 640) {
+              newcol = 2;
+            }
+            if (winWidth < 480) {
+              newcol = 2;
+            }
+            $i = 0;
+            $('.show-grid > .item').each(function() {
+              $i++;
+              $(this).removeClass('first');
+              $(this).removeClass('last');
+              if (($i - 1) % newcol == 0) {
+                $(this).addClass('first');
+              } else if ($i % newcol == 0) {
+                $(this).addClass('last');
+              }
+            });
+          }
+          $mt(function($) {
+            var winWidth = $(window).width();
+            var winHeight = $(window).height();
+            var windowResize_t;
+            $(window).resize(function() {
+              var winNewWidth = $(window).width();
+              var winNewHeight = $(window).height();
+              if (winWidth != winNewWidth || winHeight != winNewHeight) {
+                clearTimeout(windowResize_t);
+                windowResize_t = setTimeout(function() {
+                  $(document).trigger("themeResize");
+                  setGridItem($);
+                },
+                200);
+              }
+              winWidth = winNewWidth;
+              winHeight = winNewHeight;
+            });
+            $('.mt-maincompare').hover(function() {
+              $(this).addClass('compare-active').find('.mtajaxcompare').stop().delay(200).slideDown();
+            },
+            function() {
+              $(this).removeClass('compare-active').find('.mtajaxcompare').stop().delay(200).slideUp();
+            });
+            $('.setting-big').hover(function() {
+              $(this).addClass('setting-bi-active').find('.mtsettingbig').stop().delay(200).slideDown();
+            },
+            function() {
+              $(this).removeClass('setting-bi-active').find('.mtsettingbig').stop().delay(200).slideUp();
+            });
+            $("#select-language").selectbox();
+            $("#select-currency").selectbox();
+            //lazyload
+            $("img.lazy").lazy({
+              effect: "fadeIn",
+              effectTime: 800,
+              threshold: 50,
+              afterLoad: function(element) {}
+            });
+            var text = $(".form-language a.sbSelector").text().toLowerCase();
+            $(".form-language a.sbSelector").css({
+              "background-image": "url('#" + text + ".png')",
+              "background-repeat": "no-repeat",
+              "background-position": "left center"
+            });
+
+            //Back to top
+            $(window).scroll(function() {
+              if ($(this).scrollTop() > 100) {
+                $('#back-top').fadeIn();
+              } else {
+                $('#back-top').fadeOut();
+              }
+            });
+            $('#back-top a').click(function() {
+              $('body,html').animate({
+                scrollTop: 0
+              },
+              800);
+              return false;
+            });
+
+            $('.bottom-content').click(function() {
+              $('html, body').animate({
+                scrollTop: $('.show-grid-slide').height()
+              },
+              800);
+              return false;
+            });
+
+            //Cart header
+            $('.mt-maincart').hover(function() {
+              $(this).addClass('cart-active').find('.ajaxcart').stop().delay(200).slideDown();
+            },
+            function() {
+              $(this).removeClass('cart-active').find('.ajaxcart').stop().delay(200).slideUp();
+            });
+            //Quickview
+            $('.product-quickview').live('click',
+            function() {
+              $.colorbox({
+                iframe: true,
+                href: this.href,
+                opacity: 0.5,
+                speed: 300,
+                current: '{current} / {total}',
+                close: "close",
+                innerWidth: '765px',
+                innerHeight: '650px',
+                onOpen: function() {
+                  $('#cboxLoadingGraphic').addClass('box-loading');
+                },
+                onComplete: function() {
+                  setTimeout(function() {
+                    $('#cboxLoadingGraphic').removeClass('box-loading');
+                  },
+                  1300);
+                }
+              });
+            });
+
+            $('.show-quickview').live('click',
+            function(e) {
+              if ($('.btn-cart-mobile').length == 0) {
+                $('[data-id=quickview-' + $(this).attr('data-id') + ']').trigger('click');
+              } else {
+                return window.location.href = $(this).attr('data-submit');
+              }
+            });
+          });
+          $mt(window).load(function() {
+            setGridItem($mt);
+            $mt.browserSelector();
+            if ($mt("html").hasClass("chrome")) {
+              $mt.smoothScroll();
+            }
+            if ($mt("html").hasClass("safari")) {
+              $mt.smoothScroll();
+            }
+            $mt(".mt-tooltip").tooltip();
+
+            var selectToggle = '<i class="fa fa-angle-down"></i>',
+            flextPrev = '<i class="fa fa-angle-left"></i>',
+            flextNext = '<i class="fa fa-angle-right"></i>';
+
+            $mt(".flex-direction-nav a, .more-views .more-views-prev, .more-views .more-views-next").empty();
+            $mt(".more-views").addClass("nav-wrapper-view");
+            //$mt(".sbToggle").append(selectToggle);
+            $mt(".flex-direction-nav a.flex-prev").append(flextPrev);
+            $mt(".flex-direction-nav a.flex-next").append(flextNext);
+
+            wow = new WOW({
+              boxClass: 'wow',
+              animateClass: 'animated',
+              offset: 100
+            });
+            wow.init();
+          });
+          $mt(".accordion-footer").addClass("accordion-show");
+          $mt(".accordion-footer").click(function() {
+            if ($mt(this).parent().next().is(":visible")) {
+              $mt(this).addClass("accordion-show");
+            } else {
+              $mt(this).removeClass("accordion-show");
+            }
+            $mt(this).parent().next().toggle(400);
+          });
+          //Background category header//
+          $mt(document).ready(function() {
+            var iconSearch = $mt(".quick-access").find(".mt-icon-ajax").find(".fa-search"),
+            formSearch = $mt(".quick-access").find(".form-search"),
+            headerOverlay = $mt(".header-content").find(".header-act");
+            $mt(iconSearch).click(function() {
+              if ($mt(formSearch).is(":visible")) {
+                $mt(formSearch).fadeOut(100);
+                $mt(this).removeClass("fa-arrows-alt").addClass("fa-search");
+                $mt(headerOverlay).removeClass("header-overlay");
+                $mt(this).attr("data-icon", "U");
+              } else {
+                $mt(formSearch).fadeIn(100);
+                $mt(this).removeClass("fa-search").addClass("fa-arrows-alt");
+                $mt(headerOverlay).addClass("header-overlay");
+                $mt(this).attr("data-icon", "M");
+              }
+            });
+          });
+
+          function iconFontAwesome() {
+            //add font icon awesome
+            $mt(".top-link .links li a").append("<i></i>");
+            $mt(".top-link .links li.first i").addClass("fa fa-user");
+            $mt(".top-link .links li a.top-link-cart i").addClass("fa fa-shopping-cart");
+            $mt(".top-link .links li a.top-link-wishlist i").addClass("fa fa-heart-o");
+            $mt(".top-link .links li a.top-link-checkout i").addClass("fa fa-check");
+            $mt(".top-link .links li.last i").addClass("fa fa-unlock-alt");
+          }
+        </script>
+        <script type="text/javascript">
+          (function($) {
+            $('.block-wishlist #wishlist-sidebar a').live('click',
+            function() {
+              if (confirm($(this).attr('data-confirm'))) {
+                removetowishlist($(this));
+              }
+              return false;
+            });
+            $('.block-wishlist-header #wishlist-header a.btn-remove').live('click',
+            function() {
+              if (confirm($(this).attr('data-confirm'))) {
+                removetowishlist($(this));
+              }
+              return false;
+            });
+            $('.add-to-links a.link-wishlist').live('click',
+            function() {
+              addtowishlist($(this));
+              return false;
+            });
+            if ($('.product-view').length > 0) {
+              productAddToCartForm.submitLight = function(button, url) {
+                return false;
+              }.bind(productAddToCartForm);
+            }
+            $('.add-to-links a.link-compare').live('click',
+            function() {
+              addtocompare($(this));
+              return false;
+            });
+            $('.block-compare #compare-items a, .block-top-compare a.btn-remove').live('click',
+            function() {
+              if (confirm($(this).attr('data-confirm'))) {
+                removecompare($(this));
+              }
+              return false;
+            });
+            $('.block-compare .clearall a, .block-compare .actions a, .block-top-compare .clearall a').live('click',
+            function() {
+              if (confirm($(this).attr('data-confirm'))) {
+                clearallcompare($(this));
+              }
+              return false;
+            });
+          })($mt);
+        </script>
+      </section>
+    </section>
+</body>
+
+</html>

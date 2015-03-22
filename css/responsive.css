@@ -1,0 +1,654 @@
+@media (min-width: 1200px) {
+    /* Product-view */
+    .rtl .product-news ul li {
+        width: 22.4333%;
+    }
+    .product-view .product-shop ul.add-to-links li .v-centered-content .v-center {
+        padding: 0;
+    }
+
+    .tp-caption.customlargeboldwhite {
+        font-size: 190px !important;
+    }
+    .search-style{
+        margin: 0;
+    }
+    .rtl .header .form-search{
+        right: inherit;
+        left: 50px;
+    }
+    .rtl #mtnav a{
+        font-size: 12px;
+    }
+    .rtl .img-sticky.img-responsive{
+        width: inherit;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .rtl #mtnav a{
+        font-size: 12px;
+    }
+    .rtl .img-sticky.img-responsive{
+        width: inherit;
+    }
+}
+
+/* 960px <= width < 1200px */
+@media only screen and (min-width: 960px) and (max-width: 1200px) {
+    /*Home*/
+    .header .header-act {
+        padding: 0;
+    }
+
+    .header .header-right-inner {
+        top: -70px;
+        position: relative;
+    }
+
+    #mtnav a {
+        padding: 0 10px;
+    }
+
+    #mtnav li.level0 {
+        margin: 0;
+    }
+
+    .header .form-search input#search {
+        width: 500px;
+    }
+
+    .mt-main-menu {
+        left: 0;
+    }
+
+    .product-news ul li,.rtl .product-news ul li {
+        width: 46%;
+        margin-bottom: 30px;
+    }
+
+    /*Category*/
+
+
+    .sidebar .block .block-title {
+        height: auto;
+    }
+    .search-style{
+        margin: 0;
+    }
+    .rtl #mtnav a{
+        font-size: 10px;
+    }
+    .rtl .sticky-wrapper{
+        min-height: 100px;
+    }
+    .rtl .header .form-search{
+        right: inherit;
+        left: 63px;
+        top: 2px;
+    }
+    .rtl .img-sticky.img-responsive{
+        width: inherit;
+    }
+    .is-sticky .mt-main-menu {
+        float: left;
+        padding: 35px 0 0 170px;
+    }
+
+    .mt-main-menu {
+    width: 940px;
+    background: rgba(118,114,106,0.3);
+    top: 152px;
+    padding: 0;
+    float: left;
+    position: relative;
+    left: -176px;
+    z-index: 1000;
+    }
+    #mtnav li {
+    width: 184px;
+    float: left;
+    padding: 0;
+    text-align: left;
+    }
+
+}
+
+/* Design for a width of 960-1024 px
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+*/
+
+/* 940px <= width < 1170px */
+@media (min-width: 940px) and (max-width: 1170px) {
+
+}
+
+@media (min-width: 965px) and (max-width: 991px) {
+    .mt-main-menu {
+    width: 719px;
+    left: -139px;
+    }
+    #mtnav li {
+    width: 138px;
+    }
+}
+@media (max-width: 991px) {
+    #cboxOverlay, #colorbox {
+        display: none !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+    /*Home*/
+    .header .header-act {
+        padding: 0;
+    }
+
+    .header .header-right-inner {
+        top: 0;
+        position: relative;
+    }
+
+    #mtnav a {
+        padding: 0 10px;
+    }
+
+    #mtnav li.level0 {
+        margin: 0;
+    }
+
+    .header .form-search input#search {
+        width: 500px;
+    }
+
+    .mt-main-menu {
+        left: 0;
+    }
+
+    .product-news ul li,.rtl .product-news ul li {
+        width: 46%;
+        margin-bottom: 30px;
+    }
+
+    /*Category*/
+
+
+
+    .search-style{
+        margin: 0;
+    }
+    .rtl .header .sticky-wrapper{
+        position: relative;z-index: 9898;
+    }
+    .header .sticky-wrapper{
+        position: relative;
+    }
+    .header .header-right-inner{
+        top: 27px;
+        display: inline-block;
+        position: absolute;
+        text-align: center;
+        float: right;
+        z-index: 8787;
+    }
+    .header .form-search{
+        top: -15px;
+    }
+    .is-sticky .mt-main-menu {
+        float: left;
+        padding: 35px 0 0 170px;
+    }
+    .header .logo{
+        position: relative;
+    }
+    .rtl #mtnav a{
+        font-size: 10px;
+    }
+    .rtl .header .form-search{
+        right: inherit;
+        left: 75px;
+    }
+    .rtl .img-sticky.img-responsive{
+        width: 100px;
+    }
+    .rtl .header .header-right-inner
+    {
+        top: 60px;
+    }
+    .mt-main-menu {
+    width: 719px;
+    background: rgba(118,114,106,0.3);
+    top: 152px;
+    padding: 0;
+    float: left;
+    position: relative;
+    left: -139px;
+    z-index: 1000;
+    }
+    #mtnav li {
+    width: 137px;
+    }
+
+}
+
+
+/* Iphone 5 landscape */
+@media (max-width: 767px) {
+
+    /*Home*/
+    .header .header-act {
+        padding: 0;
+    }
+
+    .header .header-right-inner {
+        top: 26px;
+        position: relative;
+    }
+
+    #mtnav a {
+        padding: 0 10px;
+    }
+
+    #mtnav li.level0 {
+        margin: 0;
+    }
+
+    .header .form-search input#search {
+        width: 500px;
+    }
+
+    .mt-main-menu {
+        left: 0;
+    }
+
+    .product-news ul li,.rtl .product-news ul li {
+        width: 46%;
+        margin-bottom: 30px;
+    }
+
+    .wrap-banner {
+        margin-bottom: 30px;
+    }
+    .grid12-4,.grid12-8{
+        width: 100%;
+    }
+}
+
+/* Tablet (Portrait) - design for a width of 768px
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+*/
+
+/* 768px <= width < 960px */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+}
+
+/* All desktop - design for a width of 768px and wider
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+*/
+
+/* 768px <= width */
+@media only screen and (min-width: 768px) {
+}
+
+/* 480px <= width < 768px */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .product-news ul li,.rtl .product-news ul li {
+        width: 45%;
+    }
+    .navbar{
+        left: 82px;
+        position: absolute;
+        z-index: 9999999;
+        top: 12px;
+    }
+
+}
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+.category-products .itemgrid.itemgrid-adaptive .item {
+    width: 47.8%;
+}
+}
+/* 640px <= width < 768px */
+@media only screen and (min-width: 640px) and (max-width: 767px) {
+    .product-news ul li,.rtl .product-news ul li {
+        width: 45%;
+    }
+
+}
+
+/* width < 480px */
+@media only screen and (max-width: 479px) {
+    .header-container .header .header-top .header-top-left ul.links li {
+        border: none;
+    }
+
+    .header-container .header .header-top .header-top-left ul.links li {
+        display: inline-block;
+        float: none;
+    }
+
+}
+
+/* Mobile (Portrait) - design for a width of 320px
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+*/
+
+/* 320px <= width < 480px */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    .header-container .header .header-top .header-top-left ul.links li {
+        border: none;
+    }
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 639px) {
+    .product-news ul li,.rtl .product-news ul li {
+        margin: 0;
+        padding: 0 100px;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .product-news ul li .item-upsell,.rtl .product-news ul li .item-upsell {
+        position: relative;
+    }
+
+}
+
+/* 360px <= width < 640px */
+@media only screen and (min-width: 360px) and (max-width: 640px) {
+    .product-news ul li,.rtl .product-news ul li {
+        margin: 0;
+        padding: 0 100px;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .product-news ul li .item-upsell,.rtl .product-news ul li .item-upsell {
+        position: relative;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .category-products .itemgrid.itemgrid-adaptive .item {
+        width: 100%;
+        padding: 0 100px;
+    }
+}
+
+/* width < 320px */
+@media only screen and (max-width: 319px) {
+}
+
+/* Iphone 4 landscape */
+@media (max-width: 480px) {
+    .category-products .itemgrid.itemgrid-adaptive .item {
+        width: 100%;
+        padding: 0 100px;
+    }
+}
+
+@media (max-width: 320px) {
+}
+
+@media only screen and (min-width: 360px) and (max-width: 479px) {
+    .category-products .itemgrid.itemgrid-adaptive .item {
+        width: 100%;
+        padding: 0 50px;
+    }
+    .search-style{
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    /****************Style all**********************/
+    #cboxOverlay, #colorbox {
+        display: none !important;
+    }
+
+    .product-tabs {
+        height: inherit;
+    }
+
+    .product-tabs li {
+        width: 100%;
+    }
+
+    .data-table thead th {
+        padding: 2px;
+    }
+
+    .navbar .navbar-inverse .navbar-toggle .icon-bar {
+        background: #000;
+    }
+
+    #product-review-table thead tr th span.nobr {
+        font-size: 11px;
+    }
+
+    #product-review-table tbody tr th {
+        font-size: 11px;
+    }
+
+    #product-review-table tbody tr td {
+        padding: 2px;
+        text-align: center;
+    }
+
+    #product-review-table tbody tr td input {
+        display: inline-block;
+    }
+
+    /*  Checkout-cart-index */
+    table#wishlist-table, table#shopping-cart-table, table#checkout-review-table, table#my-orders-table {
+        border: 0 none;
+        outline: medium none;
+    }
+
+    table#wishlist-table td,
+    table#wishlist-table th table#product-review-table td,
+    table#shopping-cart-table td,
+    table#shopping-cart-table th,
+    table#checkout-review-table td,
+    table#checkout-review-table th,
+    table#my-orders-table th,
+    table#my-orders-table td {
+        display: block;
+        float: none;
+        text-align: center;
+    }
+    .data-table th{
+        display: block;
+    }
+    table#shopping-cart-table td.a-right button {
+        margin-bottom: 10px;
+    }
+
+    /****************End Style all**********************/
+    .cms-index-index .mt-preface .sl-wap .bottom-content {
+        display: none;
+    }
+
+    .mt-revolution-slider .owl-carousel .owl-controls {
+        display: none !important;
+    }
+
+    .wrap-banner {
+        margin: 0 0 30px;
+        position: relative;
+    }
+
+    .wrap-banner .content-banner h3 {
+        font-size: 40px;
+        margin: 0;
+    }
+
+    .wrap-banner .content-banner p {
+        font-size: 14px;
+    }
+
+    .wrap-banner .content-banner a {
+        padding: 5px 25px;
+    }
+
+    .cms-index-index .mt-preface .sl-wap .sl-content h2 {
+        font-size: 20px;
+    }
+
+    .cms-index-index .mt-preface .sl-wap .sl-content {
+        top: 15%;
+    }
+
+    .cms-index-index .mt-preface .sl-wap .sl-content p {
+        font-size: 14px;
+    }
+
+    .main-top {
+        margin-top: 30px;
+    }
+
+    .wap-banner {
+        margin-bottom: 30px;
+    }
+
+    .product-news h2 {
+        margin-bottom: 75px;
+    }
+
+    .product-news ul li,.rtl .product-news ul li {
+        float: left;
+        margin: 0 0 30px 0;
+        padding: 0 15px;
+        position: relative;
+        text-align: center;
+        width: 100%;
+    }
+
+    .product-news ul li .item-upsell,.rtl .product-news ul li .item-upsell {
+        position: relative;
+    }
+
+    .product-news ul li a.product-image,.rtl .product-news ul li a.product-image {
+        position: relative;
+    }
+
+    .product-new-label {
+        top: 0;
+    }
+
+    .footer-menu-link ul li {
+        display: block;
+        text-align: center;
+    }
+
+    .footer-menu-link ul li a {
+        display: block;
+        padding: 10px 0;
+        background: #E67A92;
+        color: #ffffff;
+        border-bottom: 1px solid #FFFFFF;
+    }
+
+    .footer-menu-link ul li a:hover {
+        background: #ffb12a;
+        color: #fff;
+    }
+
+    .footer-menu-link ul li a:before {
+        border: none;
+    }
+
+    .mt-revolution-slider {
+        margin-top: 100px;
+    }
+
+    /*category*/
+    .breadcrumbs {
+        top: 140px;
+        right: 20px;
+    }
+
+    .main-breadcrumbs {
+        height: 180px;
+    }
+    .navbar{
+        left: 23px;
+        position: absolute;
+        top: 71px;
+        z-index: 989999;
+    }
+
+.grid12-4,.grid12-8{
+    width: 100%;
+}
+    .header .form-search {
+        background: none repeat scroll 0 0 #fff;
+        display: none;
+        position: absolute;
+        right: 20px;
+        top: 2px;
+    }
+    .header .form-search input#search {
+        width: 247px;
+    }
+
+    .rtl .header .logo{
+        right: 10px;
+    }
+    .rtl .header .header-right-inner{
+        z-index: 999999999999999;
+    }
+    .rtl .mt-revolution-slider {
+        margin-top: 0;
+    }
+    .rtl .navbar {
+        left: 3px;
+        position: absolute;
+        top: 24px;
+        z-index: 989999;
+    }
+    .rtl .ajaxcart{
+        width: 270px;
+        left: 10px;
+        right: inherit;
+    }
+
+    .rtl .header .form-search {
+        left: 21px;
+        right: inherit;
+        top: 40px;
+    }
+    .rtl .cart > form {
+        display: inline-block;
+        padding: 0 10px 0 0;
+        width: 100%;
+    }
+    .rtl .category-products .itemgrid.itemgrid-adaptive .item{
+        margin-bottom: 20px;
+    }
+    #product-review-table tbody tr td{
+        display: block;
+    }
+}
+
+@media (max-width: 360px) {
+    .category-products .itemgrid.itemgrid-adaptive .item {
+        width: 100%;
+        padding: 0;
+    }
+
+}
+
+/* IPHONE 4 + 5 Portrait */
+@media only screen and (min-width: 240px) and (max-width: 320px) {
+
+}
+
+
+
+
+
+
+
+
